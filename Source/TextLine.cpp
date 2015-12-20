@@ -2,7 +2,7 @@
  * TextLine.cpp
  *
  *  Created on: 19 дек. 2015 г.
- *      Author: artemcherkasov
+ *      Author: Cherkasov A.V.
  */
 
 #include "../Headers/TextLine.h"
