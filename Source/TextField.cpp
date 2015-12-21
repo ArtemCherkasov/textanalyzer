@@ -28,7 +28,7 @@ TextField::TextField(int width, int height, sf::RenderWindow *window){
 	this->window = window;
 	this->text_line_index = 0;
 	this->text_line_list.push_back(*(new TextLine(this->text_line_index,this->width, this->height, 10, 10)));
-	if(!font.loadFromFile("/home/artemcherkasov/couriernew.ttf")){
+	if(!font.loadFromFile("/Users/artemcherkasov/couriernew.ttf")){
 		//printf("load font from file is error");
 	}
 }
@@ -53,7 +53,7 @@ void TextField::draw(int position_y){
 
 void TextField::loadText(){
 
-	this->text_loader = new TextLoader("/home/artemcherkasov/harry_full.txt");
+	this->text_loader = new TextLoader("/Users/artemcherkasov/harry.txt");
 
 	for(int i = 0; i < this->text_loader->getCountWords(); ++i){
 		this->toTextLine(this->text_loader->getWord(i));
