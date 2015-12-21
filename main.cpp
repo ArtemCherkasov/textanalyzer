@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include "Headers/TextField.h"
+#include "Headers/ScrollBar.h"
 
 #define WIDTH 1024
 #define HEIGHT 768
@@ -11,7 +12,9 @@ int main()
     sf::CircleShape shape(150.f);
     sf::Clock clock;
     shape.setFillColor(sf::Color::Green);
-    TextField *text_field = new TextField(WIDTH, HEIGHT, &window);
+    TextField *text_field = new TextField(WIDTH - 100, HEIGHT, &window);
+    ScrollBar *scroll_bar = new ScrollBar(WIDTH, HEIGHT, &window);
+
     text_field->loadText();
     float time_count = 0;
     int m = 0;
@@ -24,16 +27,21 @@ int main()
         while (window.pollEvent(event))
         {
             if (event.type == sf::Event::Closed) window.close();
-            //sf::FloatRect visibleArea(0, 0, event.size.width, event.size.height);
-            //window.setView(sf::View(visibleArea));
+
+            if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
+				sf::Vector2i position = sf::Mouse::getPosition(window);
+				if (scroll_bar->isPressed(position))
+					scroll_bar->setPosition(position.y);
+            }
         }
 
 		// window.draw(shape);
 		if (time_count > 0.05){
 			time_count = 0.0;
 			window.clear(sf::Color::White);
-			text_field->draw(m);
-			view.move(0, 1);
+			text_field->draw(0);
+			scroll_bar->draw();
+			//view.move(0, 1);
 			//view.rotate(2);
 			window.setView(view);
 			window.display();
