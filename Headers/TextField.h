@@ -11,6 +11,7 @@
 #include <iostream>
 #include "SFML/Graphics.hpp"
 #include "../Headers/TextLine.h"
+#include "../Headers/TextLoader.h"
 #include "../Headers/WordBlock.h"
 #include <vector>
 #include <string>
@@ -25,7 +26,7 @@ private:
 	int text_line_index;
 	sf::RenderWindow *window;
 	void toTextLine(std::string word);
-
+	TextLoader *text_loader;
 public:
 	TextField(int width, int height, sf::RenderWindow *window);
 	void loadText();
@@ -33,7 +34,7 @@ public:
 	void setHeight(int height);
 	int getWidth() const;
 	void setWidth(int width);
-	void draw();
+	void draw(int position_y);
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */

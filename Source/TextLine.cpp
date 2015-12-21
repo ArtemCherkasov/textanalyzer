@@ -14,7 +14,7 @@ TextLine::TextLine(int id, int width, int height, int margin_bottom, int space){
 	this->height = height;
 	this->margin_bottom = margin_bottom;
 	this->space = space;
-	this->position_y = id*15 + 10;
+	this->position_y = id*18 + 10;
 
 }
 
@@ -22,7 +22,6 @@ void TextLine::addWordBlock(WordBlock word_block){
 	word_block.setPosition(this->width, this->position_y);
 	this->word_block_list.push_back(word_block);
 	this->width += word_block.getWidth() + this->space;
-	std::cout << this->width << std::endl;
 }
 
 int TextLine::getHeight() const {
