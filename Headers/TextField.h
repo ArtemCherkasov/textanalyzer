@@ -13,12 +13,14 @@
 #include "../Headers/TextLine.h"
 #include "../Headers/TextLoader.h"
 #include "../Headers/WordBlock.h"
+#include "../Headers/FullDictionary.h"
 #include <vector>
 #include <string>
 #include <algorithm>
 
-#define PATH_TO_FONT "/home/artemcherkasov/couriernew.ttf"
-#define PATH_TO_TEXT "/home/artemcherkasov/harry_full.txt"
+#define PATH_TO_FONT "/Users/artemcherkasov/couriernew.ttf"
+#define PATH_TO_TEXT "/Users/artemcherkasov/harry.txt"
+#define PATH_TO_DICTIONARY "/Users/artemcherkasov/fulldictionary.txt"
 
 class TextField{
 

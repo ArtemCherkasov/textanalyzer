@@ -7,6 +7,10 @@
 
 #include "../Headers/Word.h"
 
+Word::Word(std::string word){
+	this->word = word;
+}
+
 std::vector<std::string> Word::getChildWordsList(){
 	return child_words_list;
 }

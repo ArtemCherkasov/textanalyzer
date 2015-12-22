@@ -77,6 +77,9 @@ void TextField::loadText(){
 		}
 		this->toTextLine(this->text_loader->getWord(i), block);
 	}
+
+	FullDictionary *full_dictionary = new FullDictionary(PATH_TO_DICTIONARY);
+
 	this->load = true;
 
 }

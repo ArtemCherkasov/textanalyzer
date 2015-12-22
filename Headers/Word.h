@@ -16,6 +16,7 @@ private:
 	std::string word;
 	std::vector<std::string> child_words_list;
 public:
+	Word(std::string word);
 	std::vector<std::string> getChildWordsList();
 	void addChildWord(std::string childWord);
 	std::string getWord();

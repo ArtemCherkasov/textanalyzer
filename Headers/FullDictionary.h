@@ -10,10 +10,19 @@
 
 #include <string>
 #include <vector>
+#include "../Headers/Word.h"
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+#include <exception>
 
 class FullDictionary{
 private:
-
+	std::vector<Word> full_dictionary;
+	void toFillList(std::string line);
+public:
+	FullDictionary(std::string path_to_dictionary);
+	void addWord(Word word);
 };
 
 
