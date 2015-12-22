@@ -16,6 +16,7 @@ int main()
     ScrollBar *scroll_bar = new ScrollBar(WIDTH, HEIGHT, &window);
 
     text_field->loadText();
+
     float time_count = 0;
     int m = 0;
 

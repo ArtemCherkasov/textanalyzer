@@ -21,7 +21,7 @@ void WordBlock::addWord(std::string word, sf::Font *font){
 	this->font = font;
 }
 
-WordBlock::WordBlock(std::string word, sf::Font *font){
+WordBlock::WordBlock(std::string word, sf::Font *font, bool block){
 	this->word = word;
 	this->font = font;
 	this->text_sfml.setFont(*this->font);
@@ -32,6 +32,7 @@ WordBlock::WordBlock(std::string word, sf::Font *font){
 	this->rectangle.setFillColor(sf::Color::Red);
 	this->size = this->word.size();
 	this->width = this->text_sfml.getLocalBounds().width;
+	this->block = block;
 }
 
 const sf::RectangleShape WordBlock::getRectangle(){
@@ -46,6 +47,10 @@ void WordBlock::setPosition(float x, float y){
 	this->text_sfml.setPosition(x ,y);
 	this->rectangle.setPosition(x - 2, y + 2);
 	this->rectangle.setSize(sf::Vector2f(this->width+6, 16));
+}
+
+bool WordBlock::getBlock(){
+	return this->block;
 }
 
 int WordBlock::getWidth(){

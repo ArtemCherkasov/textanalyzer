@@ -21,9 +21,10 @@ private:
 	sf::Text text_sfml;
 	sf::RectangleShape rectangle;
 	sf::Font *font;
+	bool block;
 public:
 	WordBlock();
-	WordBlock(std::string word, sf::Font *font);
+	WordBlock(std::string word, sf::Font *font, bool block);
 	void addWord(std::string word, sf::Font *font);
 	const std::string& getWord() const;
 	void setWord(const std::string& word);
@@ -32,6 +33,7 @@ public:
 	const sf::Text getTextSfml();
 	const sf::RectangleShape getRectangle();
 	void setPosition(float x, float y);
+	bool getBlock();
 };
 
 #endif /* HEADERS_WORDBLOCK_H_ */

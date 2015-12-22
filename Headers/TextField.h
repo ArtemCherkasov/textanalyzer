@@ -15,6 +15,10 @@
 #include "../Headers/WordBlock.h"
 #include <vector>
 #include <string>
+#include <algorithm>
+
+#define PATH_TO_FONT "/home/artemcherkasov/couriernew.ttf"
+#define PATH_TO_TEXT "/home/artemcherkasov/harry_full.txt"
 
 class TextField{
 
@@ -26,8 +30,10 @@ private:
 	std::vector<TextLine> text_line_list;
 	int text_line_index;
 	sf::RenderWindow *window;
-	void toTextLine(std::string word);
+	void toTextLine(std::string word, bool block);
 	TextLoader *text_loader;
+	sf::Text info_text;
+	bool load;
 public:
 	TextField(int width, int height, sf::RenderWindow *window);
 	void loadText();
@@ -37,6 +43,7 @@ public:
 	void setWidth(int width);
 	void draw(int position_y);
 	int getMovePosition();
+	bool isLoad();
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */
