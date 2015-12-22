@@ -30,8 +30,17 @@ int main()
 
             if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
 				sf::Vector2i position = sf::Mouse::getPosition(window);
-				if (scroll_bar->isPressed(position))
+				if (scroll_bar->isPressed(position) && !scroll_bar->isClicked()){
+					scroll_bar->setClicked(true);
+					scroll_bar->setDelta(position.x, position.y);
+				}
+
+				if (scroll_bar->isClicked()){
 					scroll_bar->setPosition(position.y);
+				}
+
+            } else {
+            	scroll_bar->setClicked(false);
             }
         }
 
@@ -39,9 +48,9 @@ int main()
 		if (time_count > 0.05){
 			time_count = 0.0;
 			window.clear(sf::Color::White);
-			text_field->draw(0);
+			text_field->draw(scroll_bar->getPositionProcent());
 			scroll_bar->draw();
-			//view.move(0, 1);
+			//view.move(0, scroll_bar->getPositionProcent());
 			//view.rotate(2);
 			window.setView(view);
 			window.display();

@@ -21,6 +21,7 @@ class TextField{
 private:
 	int width;
 	int height;
+	int move_position;
 	sf::Font font;
 	std::vector<TextLine> text_line_list;
 	int text_line_index;
@@ -35,6 +36,7 @@ public:
 	int getWidth() const;
 	void setWidth(int width);
 	void draw(int position_y);
+	int getMovePosition();
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */

@@ -28,7 +28,7 @@ TextField::TextField(int width, int height, sf::RenderWindow *window){
 	this->window = window;
 	this->text_line_index = 0;
 	this->text_line_list.push_back(*(new TextLine(this->text_line_index,this->width, this->height, 10, 10)));
-	if(!font.loadFromFile("/Users/artemcherkasov/couriernew.ttf")){
+	if(!font.loadFromFile("/home/artemcherkasov/couriernew.ttf")){
 		//printf("load font from file is error");
 	}
 }
@@ -39,21 +39,27 @@ void TextField::draw(int position_y){
 	//this->window->draw(shape);
 
 	//***********
-	int id = (position_y - 10)/18;
+	//int id = (position_y - 10)/18;
+	int id = position_y*this->text_line_list.size()/100;
+	this->move_position = id*18;
+	std::cout << id << std::endl;
 	int size = this->text_line_list.size();
 	for(int i = id; i < (id + 100); ++i){
 		int size_line = this->text_line_list[i].word_block_list.size();
 		for (int j = 0; j < size_line; ++j){
 			//std::cout << this->text_line_list[i].word_block_list[j].getWord() << std::endl;
 			//this->window->draw(this->text_line_list[i].word_block_list[j].getRectangle());
+			int y = this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().y;
+			this->text_line_list[i].word_block_list[j].setPosition(this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().x, this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().y - id*18 - 10);
 			this->window->draw(this->text_line_list[i].word_block_list[j].getTextSfml());
+			this->text_line_list[i].word_block_list[j].setPosition(this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().x, y);
 		}
 	}
 }
 
 void TextField::loadText(){
 
-	this->text_loader = new TextLoader("/Users/artemcherkasov/harry.txt");
+	this->text_loader = new TextLoader("/home/artemcherkasov/harry_full.txt");
 
 	for(int i = 0; i < this->text_loader->getCountWords(); ++i){
 		this->toTextLine(this->text_loader->getWord(i));
