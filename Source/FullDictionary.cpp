@@ -13,14 +13,9 @@ FullDictionary::FullDictionary(std::string path_to_dictionary){
 	std::string output;
 	if (file.is_open()) {
 		while (std::getline(file, line)) {
-			this->addWord(line);
-			//this->full_dictionary.push_back(*(new Word(line)));
-			//this->toFillList(line);
-
+			this->toFillList(line);
 		}
-
-		//std::cout << "dictionary file: " << this->full_dictionary.size() << std::endl;
-
+		std::cout << "SIZE() " << this->words_list_pair.size() << std::endl;
 		file.close();
 	} else {
 		std::cout << "ERROR FILE OPEN" << std::endl;
@@ -29,31 +24,32 @@ FullDictionary::FullDictionary(std::string path_to_dictionary){
 
 void FullDictionary::addWord(Word word){
 	this->full_dictionary.push_back(word);
-	std::cout << "dictionary++++file: " << this->full_dictionary.size() << std::endl;
 }
 
 void FullDictionary::toFillList(std::string line){
+
 	std::string word;
-
-	try {
-		//this->full_dictionary.push_back(*(new Word("5")));
-
-	} catch (std::exception e) {
-		std::cout << e.what() << std::endl;
-	}
 	if (line[0] != '\t') {
+
+		if (!this->main_word.empty()){
+			int size_child_list = this->child_words_list.size();
+			for(int i = 0; i < size_child_list; ++i){
+				this->words_list_pair.insert( std::pair<std::string, std::string>(this->child_words_list[i], this->main_word) );
+			}
+
+			this->main_word.clear();
+			this->child_words_list.clear();
+		}
+
+		this->swap_trigger = true;
 		int i = 0;
 		while (((line[i] >= 65) && (line[i] <= 90))
 				|| ((line[i] >= 97) && (line[i] <= 122))) {
 			word.push_back(line[i]);
 			++i;
 		}
-		//std::cout << line << std::endl;
-		//std::transform(word.begin(), word.end(), word.begin(), ::tolower);
-		//Word *word_ = new Word();
-		//word_->setWord(word);
-		//std::cout << word_->getWord() << " ---- " << std::endl;
-		//this->full_dictionary.push_back(*(new Word("5")));
+		this->main_word = word;
+
 	} else {
 		int i = 1;
 		while (((line[i] >= 65) && (line[i] <= 90))
@@ -61,9 +57,17 @@ void FullDictionary::toFillList(std::string line){
 			word.push_back(line[i]);
 			++i;
 		}
-		//std::transform(word.begin(), word.end(), word.begin(), ::tolower);
-		//int current_index = this->full_dictionary.size() - 1;
-		//this->full_dictionary[current_index].addChildWord(word);
-		//std::cout << "---" << this->full_dictionary[current_index].getWord() << std::endl;
+		this->child_words_list.push_back(word);
 	}
+}
+
+std::string FullDictionary::getOriginalWord(std::string word){
+
+	std::string return_word = word;
+	std::transform(return_word.begin(), return_word.end(), return_word.begin(), ::toupper);
+
+	if(this->words_list_pair.count(return_word)){
+		return this->words_list_pair[return_word];
+	}
+	return return_word;
 }

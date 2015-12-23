@@ -20,8 +20,8 @@ void Word::addChildWord(std::string childWord){
 	this->child_words_list.push_back(childWord);
 }
 
-std::string Word::getWord(){
-	return this->word;
+const std::string& Word::getWord() const {
+	return word;
 }
 
 void Word::setWord(std::string word) {

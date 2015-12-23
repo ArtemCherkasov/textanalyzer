@@ -62,12 +62,15 @@ void TextField::draw(int position_y){
 
 void TextField::loadText(){
 	std::map<std::string, int> words_map;
+	this->full_dictionary = new FullDictionary(PATH_TO_DICTIONARY);
 	this->text_loader = new TextLoader(PATH_TO_TEXT);
 	bool block;
-
+	//HAYES
+	//std::cout << full_dictionary->getOriginalWord("HAYES") << std::endl;
 	for(int i = 0; i < this->text_loader->getCountWords(); ++i){
-		std::string w = this->text_loader->getWord(i);
-		std::transform(w.begin(), w.end(), w.begin(), ::tolower);
+		std::string w = full_dictionary->getOriginalWord(this->text_loader->getWord(i));
+		//std::string w = this->text_loader->getWord(i);
+
 		if (!words_map.count(w)){
 			words_map.insert(std::pair<std::string, int>(w, 1));
 			block = true;
@@ -77,16 +80,13 @@ void TextField::loadText(){
 		}
 		this->toTextLine(this->text_loader->getWord(i), block);
 	}
-
-	FullDictionary *full_dictionary = new FullDictionary(PATH_TO_DICTIONARY);
-
+	std::cout << "size word list: " << words_map.size() << std::endl;
 	this->load = true;
 
 }
 
 void TextField::toTextLine(std::string word, bool block){
 
-	//this->text_line_list.push_back(text_line);
 	WordBlock *word_block = new WordBlock(word, &this->font, block);
 	if (((*word_block).getWidth() + this->text_line_list[this->text_line_index].getWidth()) > this->width){
 		++this->text_line_index;

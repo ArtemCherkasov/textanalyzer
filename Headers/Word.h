@@ -19,8 +19,8 @@ public:
 	Word(std::string word);
 	std::vector<std::string> getChildWordsList();
 	void addChildWord(std::string childWord);
-	std::string getWord();
 	void setWord(std::string word);
+	const std::string& getWord() const;
 };
 
 #endif /* HEADERS_WORD_H_ */
