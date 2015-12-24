@@ -29,6 +29,8 @@ TextField::TextField(int width, int height, sf::RenderWindow *window){
 	this->window = window;
 	this->text_line_index = 0;
 	this->text_line_list.push_back(*(new TextLine(this->text_line_index,this->width, this->height, 10, 10)));
+	file_system = new FileSystem();
+	std::cout << file_system->getCurrentPath() << std::endl;
 	if(!font.loadFromFile(PATH_TO_FONT)){
 		//printf("load font from file is error");
 	}
