@@ -14,6 +14,7 @@
 #include "../Headers/TextLoader.h"
 #include "../Headers/WordBlock.h"
 #include "../Headers/FullDictionary.h"
+#include "../Headers/FileSystem.h"
 #include <vector>
 #include <string>
 #include <algorithm>
@@ -36,6 +37,7 @@ private:
 	TextLoader *text_loader;
 	sf::Text info_text;
 	FullDictionary *full_dictionary;
+	FileSystem *file_system;
 	bool load;
 public:
 	TextField(int width, int height, sf::RenderWindow *window);
