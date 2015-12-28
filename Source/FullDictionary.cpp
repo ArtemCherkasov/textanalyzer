@@ -12,8 +12,9 @@ FullDictionary::FullDictionary(std::string path_to_dictionary){
 	std::string line;
 	std::string output;
 	if (file.is_open()) {
-		while (std::getline(file, line)) {
+		while (std::getline(file, line, '\r')) {
 			this->toFillList(line);
+			//std::cout << line << "." << std::endl;
 		}
 		std::cout << "SIZE() " << this->words_list_pair.size() << std::endl;
 		file.close();

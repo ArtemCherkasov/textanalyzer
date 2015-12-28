@@ -18,9 +18,9 @@
 #include <string>
 #include <algorithm>
 
-#define PATH_TO_FONT "/home/artemcherkasov/couriernew.ttf"
-#define PATH_TO_TEXT "/home/artemcherkasov/harry.txt"
-#define PATH_TO_DICTIONARY "/home/artemcherkasov/fulldictionary.txt"
+#define PATH_TO_FONT "/Users/artemcherkasov/couriernew.ttf"
+#define PATH_TO_TEXT "/Users/artemcherkasov/harry.txt"
+#define PATH_TO_DICTIONARY "/Users/artemcherkasov/fulldictionary.txt"
 
 class TextField{
 
