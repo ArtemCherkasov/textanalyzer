@@ -15,8 +15,14 @@ LexiconHandle::LexiconHandle(std::string path_of_file){
 	if ((this->dir = opendir(writable)) != NULL) {
 		/* print all the files and directories within directory */
 		while ((this->ent = readdir (dir)) != NULL) {
-			std::cout << this->ent->d_name <<std::endl;
+			if (!((strcmp(this->ent->d_name, ".") == 0) || (strcmp(this->ent->d_name, "..")) == 0)){
+				this->list_of_file.push_back(path_of_file + "/" + this->ent->d_name);
+			}
 		}
+		for(std::vector<std::string>::iterator object = this->list_of_file.begin(); object != this->list_of_file.end(); ++object){
+			std::cout << *object << std::endl;
+		}
+
 		closedir (dir);
 	} else {
 

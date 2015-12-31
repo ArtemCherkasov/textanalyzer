@@ -9,9 +9,12 @@
 #define HEADERS_LEXICONHANDLE_H_
 
 #include <iostream>
+#include <stdio.h>
 #include <string>
+#include <cstring>
 #include <vector>
 #include <dirent.h>
+#include <algorithm>
 
 class LexiconHandle {
 private:
