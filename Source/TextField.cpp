@@ -31,7 +31,8 @@ TextField::TextField(int width, int height, sf::RenderWindow *window){
 	this->text_line_list.push_back(*(new TextLine(this->text_line_index,this->width, this->height, 10, 10)));
 	file_system = new FileSystem();
 	std::cout << file_system->getCurrentPath() << std::endl;
-	if(!font.loadFromFile(PATH_TO_FONT)){
+	lexiconHandle = new LexiconHandle(file_system->getCurrentPath());
+	if(!font.loadFromFile(file_system->getCurrentPath() + PATH_TO_FONT)){
 		//printf("load font from file is error");
 	}
 }
@@ -64,8 +65,8 @@ void TextField::draw(int position_y){
 
 void TextField::loadText(){
 	std::map<std::string, int> words_map;
-	this->full_dictionary = new FullDictionary(PATH_TO_DICTIONARY);
-	this->text_loader = new TextLoader(PATH_TO_TEXT);
+	this->full_dictionary = new FullDictionary(file_system->getCurrentPath() + PATH_TO_DICTIONARY);
+	this->text_loader = new TextLoader(file_system->getCurrentPath() + PATH_TO_TEXT);
 	bool block;
 	//HAYES
 	//std::cout << full_dictionary->getOriginalWord("HAYES") << std::endl;

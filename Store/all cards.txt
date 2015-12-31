@@ -1,0 +1,1193 @@
+and [ənd]	и
+Ann [æn]	Энн, Анна
+apple ['æpl]	яблоко
+Ben [ben]	Бен
+Helen ['helən]	Хелен, Елена
+lamp [læmp]	лампа
+let [let]	позволять, допускать
+make [meɪk]	делать, составлять
+map [mæp]	карта (географическая)
+me [mi:]	меня, мне
+pen [pen]	перо, ручка
+plan [plæn]	план
+table ['teɪbl]	стол; таблица
+take [teɪk]	брать, взять
+tell [tel]	сказать
+them [ðem]	им; их
+all [ɔ:l]	все, всё
+bag [bæg]	портфель; мешок
+black [blæk]	черный
+book [bʊk]	книга
+box [bɒks]	ящик, коробка
+child [ʧaɪld] (мн. ч. children ['ʧɪldrən])	дитя, ребенок
+five [faɪv]	пять
+friend [frend]	друг
+geology [ʤɪ'ɒləʤi]	геология
+give [ɡɪv]	давать
+good [ɡʊd]	хороший
+his [hɪz]	его
+in [ɪn]	в
+man [mæn] (мн. ч. men [men])	человек, мужчина
+maths [mæθs] = mathematics [,mæθɪ'mætɪks]	математика
+my [maɪ]	мой
+Nick [nɪk]	Ник (мужское имя)
+note [nəʊt]	заметка, запись
+notebook ['nəʊtbʊk]	тетрадь, записная книжка
+on [ɒn]	на
+open ['əʊpən]	открывать
+pencil ['pensl]	карандаш
+put [pʊt]	класть, положить
+see [si:]	видеть
+study ['stʌdɪ]	yчить(cя), изучать
+well [wel]	хорошо
+woman ['wʊmən] (мн. ч. women ['wɪmɪn])	женщина
+at [æt], [ət]	в, на (на вопрос где?)
+because [bɪ'kɔ:z]	потому что
+bottom ['bɒtəm]	низ
+east [i:st]	восток
+find [famd]	находить
+geography [ʤɪ'ɒgrəfɪ]	география
+know [nəʊ]	знать
+large [lɑ:ʤ]	большой
+left [left]	левый, налево;
+on the left	слева
+look (at) [lʊk]	смотреть (на)
+mean [mi:n]	означать, значить
+north [nɔ:θ]	север
+our ['aʊə]	наш
+Peter ['pi:tə]	Питep (мужское имя)
+pole [pəʊl]	полюс
+read [ri:d]	читать
+right [raɪt]	правый; право;
+on the right	справа
+sea [si:]	мope
+side [said]	cтopoнa
+south [saʊθ]	юг
+text [tekst]	текст
+top [tɒp]	вepx
+west [west]	запад
+white [waɪt]	белый
+word [wɜ:d]	слово
+write [rаɪt]	писать
+your [jɔ:]	ваш, твой
+this [ðɪs]	этот, эта, это
+these [ði:z]	эти
+that [ðæt]	тот, та, то
+those [ðəʊz]	те
+Atlantic Ocean [ət,læntɪk 'əʊʃən]	Атлантический океан
+big [bɪɡ]	большой
+both [bəʊθ]	оба
+bridge [brɪʤ]	мост
+building [bɪldɪŋ]	здание
+call [kɔ:l]	называть; звать
+city ['sɪtɪ]	город
+clock [klɒk]	часы (настольные, стенные, башенные)
+connect [kə'nekt]	соединять
+curved [kɜ:vd]	изогнутый
+end [end]	конец
+England ['ɪŋɡlənd]	Англия
+Europe ['jʊərəp]	Европа
+front [frʌnt]	перед; передняя сторона; фасад; фронт;
+in front of	перед, впереди
+hand [hænd]	рука
+hospital [hɒspɪtl]	больница
+hour ['аʊə]	час
+house [hаʊs]	1. дом; 2. палата (парламента)
+left-hand [,left'hænd]	левый
+letter ['letə]	буква; письмо
+listen ['lɪsn]	слушать
+live [lɪv]	жить
+London ['lʌndən]	Лондон
+million ['mɪljən]	миллион
+near [nɪə]	близко, близ
+nearly ['məlɪ]	почти
+night [nаɪt]	ночь
+ocean ['əʊʃən]	океан
+other [ʌðə]	другой
+parliament ['pɑ:ləmənt]	парламент
+part [pɑ:t]	часть
+person ['pɜ:sn]	лицо, человек
+right-hand [,rаɪt'hænd]	правый
+river ['rɪvə]	река
+square [skweə]	а квадратный
+strike [strаɪk]	бить (о часах)
+Thames [temz]	Темза
+tower ['tаʊə]	башня
+very [verɪ]	очень
+Westminster Abbey [,westmɪnstər 'æbɪ]	Вестминстерское аббатство
+wide [wаɪd]	широкий
+with [wɪð]	с
+air [eə]	воздух
+almost ['ɔ:lməʊst]	почти (не расстояние)
+any ['еnɪ]	любой
+by [baɪ]	предлог, соответствующий творительному падежу;
+by railway	поездом
+come [kʌm]	приходить, приезжать
+dock [dɒk]	док
+docker ['dɒkə]	докер
+Dover ['dəʊvə]	Дувр
+each [i:ʧ]	каждый
+English ['ɪŋɡlɪʃ]	английский
+fly [flaɪ]	летать
+for [fɔ:]	для
+from [frɒm]	от, из
+gate [ɡeɪt]	ворота
+go [ɡəʊ]	уходить; идти; уезжать; направляться
+into ['ɪntə]	в (нa вопросы «куда?, во что?»)
+kind [kаɪnd]	род; сорт; класс
+line [laɪn]	линия
+look [lʊk]	смотреть
+many ['menɪ]	многие
+mouth [maʊθ]	рот; устье (реки)
+only ['əʊnlɪ]	только
+or [ɔ:]	или
+place [pleɪs]	место
+railway ['reɪlweɪ]	железная дорога
+Russian ['rʌʃən]	русский
+ship [ʃɪp]	судно, корабль
+small [smɔ:l]	маленький
+special ['speʃəl]	особый, специальный
+there [ðeə]	там, туда
+from there	оттуда
+translate [træns'leɪt]	переводить
+then [ðen]	затем
+up [ʌp]	вверх
+want [wɒnt]	хотеть, желать
+when [wen]	когда
+which [wɪʧ]	который
+work [wɜ:k]	работа; работать
+worker ['wɜ:kə]	рабочий; работник
+world [wɜ:ld]	мир, свет
+along [ə'lɒŋ]	вдоль, по
+also ['ɔ:lsəʊ]	также
+as [æz]	как;когда, в то время как;
+as... as	так же ... как
+beautiful ['bju:tɪfl]	красивый, прекрасный
+(the) best	самый лучший
+capital ['kæpɪtl]	столица
+church [ʧɜ:ʧ]	церковь
+cinema ['sɪnɪmə]	кинотеатр
+country ['kʌntrɪ]	страна
+do [du:]	делать
+every ['evrɪ]	каждый
+famous ['feɪməs]	знаменитый
+foreign ['fɒrɪn]	иностранный
+former ['fɔ:mə]	прежний, бывший
+Great Britain [,ɡreɪt 'brɪtn]	Великобритания
+hear [hɪə]	слышать
+hill [hɪl]	холм, возвышенность; гора
+home [həʊm]	(родной) дом; родина; зд. резиденция
+hundred ['hʌndrɪd]	сто, сотня
+Kremlin ['kremlɪn]	Кремль
+list [lɪst]	список, перечень
+main [maɪn]	главный, основной
+model ['mɒdəl]	модель
+Moscow ['mɒskəʊ]	Москва
+most [məʊst]	большая часть
+museum [mju:'zi:əm]	музей
+new [nju:]	новый
+now [naʊ]	теперь, сейчас
+often ['ɒfn]	часто
+old [əʊld]	старый;
+oldest ['əʊldɪst]	самый старый
+palace ['pæləs]	дворец
+park [pɑ:k]	парк
+people ['pi:pl]	народ, люди
+pop star ['pɒp stɑ:]	поп-звезда
+prime minister ['praɪm,mɪnɪstə]	премьер-министр
+prison ['prɪzn]	тюрьма
+the Queen [kwi:n]	королева
+radio ['reɪdɪəʊ]	радио
+royal ['rɔɪəl]	королевский
+Russia ['rʌʃə]	Россия
+shop [ʃɒp]	магазин
+shopping centre ['ʃɒpɪŋ sentə]	торговый центр
+sightseeing ['saɪt,si:ɪŋ]	осмотр достопримечательностей
+street [stri:t]	улица
+theatre ['θɪətə]	театр
+thing [θɪŋ]	вещь, предмет
+thousand ['θaʊzənd]	тысяча
+through [θru:]	prep сквозь, через; adv насквозь
+today [tə'deɪ]	сегодня; в наше время
+tourist ['tʊərɪst]	турист
+twenty ['twentɪ]	двадцать
+visit [vɪzɪt]	посещать; посещение, визит
+visitor ['vɪzɪtə]	посетитель, гость
+walk [wɔ:k]	ходить пешком, гулять
+wax [wæks]	воск
+animal ['ænɪməl] n	животное
+autumn ['ɔ:təm] n	осень
+back [bæk] adv	обратно
+begin [bɪ'ɡɪn] v	нaчинaть(cя)
+bird [bɜ:d] n	птица
+brown [braun] а	коричневый
+but [bʌt] cj	но
+cold [kəʊld] а	холодный
+cool [ku:l] а	прохладный
+crop [krɒp] n	сельскохозяйственная культура; урожай
+different ['dɪfrənt] а	различный
+fall [fɔ:l] v	падать
+fall off	опадать, отпадать
+flower ['flaʊə] n	цветок
+green [ɡri:n] а	зеленый
+grow [ɡrəʊ] v	расти, растить; выращивать; становиться
+keep [ki:p] v	дepжaть(cя); хранить, оставаться, сохраняться; вести
+leaf [li:f] n	(мч. ч. leaves [li:vz]) лист (дерева)
+mile [maɪl] n	миля
+month [mʌnθ] n	месяц
+off [ɒf] adv, prep	прочь (более подробно см. урок 13)
+rain [reɪn] п	дождь
+red [red] а	красный
+season ['si:zn] n	время года; сезон
+snow [snəʊ] n	снег
+some [sʌm] pron	некоторый
+sometimes ['sʌmtaɪmz] adv	иногда
+spring [sprɪŋ] n	весна
+storm [stɔ:m] n	буря, шторм
+summer ['sʌmə] n	лето
+too [tu:] adv	слишком; также
+tree [tri:] n	дерево
+usually ['ju:ʤʊəlɪ] adv	обычно
+vegetable ['veʤ(ɪ)təbl] n	овощ; а растительный
+warm [wɔ:m] а	теплый
+water [wɔ:tə] n	вода
+weather ['weðə] n	погода
+wind [wɪnd] n	ветер
+winter ['wɪntə] n	зима
+yellow ['jeləʊ] а	желтый
+(a) adjective ['æʤɪktɪv]	прилагательное
+(adv) adverb ['ædvɜ:b]	наречие
+(cj) conjunction [kən'ʤʌŋkʃn]	союз
+(n) noun [naʊn]	существительное
+(num) numeral ['nju:mərəl]	числительное
+(pron) pronoun ['prəʊnaʊn]	местоимение
+(prep) preposition [,prepə'zɪʃn]	пpeдлoг
+(v) verb [vɜ:b]	глагол
+who? [hu:]	кто?
+where? [weə]	где?
+whom? [hu:m]	кого?
+when? [wen]	когда?
+whose? [hu:z]	чей?
+why? [waɪ]	почему?
+what? [wɒt]	что? какой?
+how? [hau]	как?
+which? [wɪʧ]	который?
+how many?	сколько?
+how much?	сколько?
+answer ['ɑ:nsə] v	отвечать; n ответ
+ask [ɑ:sk] v	спросить
+boy [bɔɪ] n	мальчик
+buy [baɪ] v	купить
+central ['sentrəl] а	центральный
+culture ['kʌlʧə] n	культура
+dance [dɑ:ns] v	танцевать; n танец
+day [deɪ] n	день
+dress [dres] n	платье; oдeждa; v oдeвaть(cя)
+eat [i:t] v	есть, съедать
+fine [faɪn] а	прекрасный; изящный; тонкий
+girl [gɜ:l] n	девочка, девушка
+ground [graʊnd] n	земля, грунт
+here [hɪə] adv	здесь, тут
+like [laɪk] v	любить, нравиться
+little ['lɪtl] а	маленький
+no [nəʊ] adv	нет
+park [pɑ:k] n	пapк
+quiet ['kwaɪət] a	тихий, спокойный; n тишина, покой
+recreation [,rekrɪ'eɪʃn] n	paзвлечение, отдых
+rest [rest] n	отдых; v отдыхать
+room [rʊm] n	комната; пpocтpaнcтвo
+say [seɪ] v	сказать
+sit [sɪt] v	сидеть
+station ['steɪʃn] n	станция, стоянка, пост; база
+think [θɪŋk] v	думать
+time [taɪm] n	время; paз;
+it is time	пopa
+underground ['ʌndə,gгaund] a	подземный
+the 'Underground n	мeтpoпoлитен
+way [weɪ] n	путь; cpeдcтвo, способ
+yes [jes] adv	да
+about [ə'bаʊt] adv l.	кругом, везде; 2. приблизительно, почти; prep о, об
+always ['ɔ:lwez] adv	всегда
+body [bɒdɪ] n	тело
+definite ['defɪnɪt] a	определенный
+depend (on) [dɪ'pend] v	зависеть (от)
+easy ['i:zɪ] a	легкий
+freedom ['fri:dəm] n	свобода
+freely ['fri:lɪ] adv	свободно
+gas [ɡæs] n	газ
+great [ɡreɪt] a	великий, огромный
+ice [aɪs] n	лед
+jelly ['ʤelɪ] n l.	желе; 2. студень
+liquid ['lɪkwɪd] а	жидкий; n жидкость
+matter ['mætə] n	вещество, материя; v иметь значение
+molecule ['mɒlɪkju:l] n	молекула
+more [mɔ:] adv	больше, более
+move [mu:v] v	двигать(cя)
+move about v	передвигаться с места на место
+own [əʊn] а	собственный
+piece [pi:s] n	кусок; штука
+pitch [pɪʧ] n	черная смола
+question ['kwesʧən] n	вопрос; v спрашивать, допрашивать
+really ['rɪəlɪ] adv	в действительности
+seem [si:m] v	казаться
+shape [ʃeɪp] n	форма; v придавать форму
+show [ʃəʊ] v	показывать
+size [sаɪz] n	размер
+slowly ['sləʊlɪ] adv	медленно
+solid ['sɒlɪd] а	твердый, цельный, прочный, солидный; п твердое тело
+speed [spi:d] n	скорость
+state [steɪt] n	1. состояние, положение; 2. государство, штат; v заявлять, констатировать
+steam [sti:m] n	пар
+than [ðæn] cj	чем
+thick [θɪk] а	толстый, густой, плотный
+thin [θm] а	жидкий; тонкий, худощавый
+vessel [vesl] n	сосуд; судно
+better	лучше
+worse	хуже
+more	больше
+less	меньше
+best	лучше всего
+worst	хуже всего
+most	больше всего
+least	меньше всего
+something	что-либо, что-нибудь, что-то
+anything	что-либо, что-нибудь (в отрицат. и вопросит, предложениях), что угодно (в утвердит. предложениях)
+everything	всё
+nothing	ничего, ничто
+somebody, someone	кто-то, кто-либо
+anybody, anyone	кто-нибудь
+everybody, everyone	все, каждый человек
+nobody, no one	никто
+somewhere	где-то, куда-то, куда-нибудь
+anywhere	где-нибудь, куда-нибудь (в вопросит, и отри-цат. предложениях), где бы (куда бы) то ни было, везде (в утвердит, предложениях)
+everywhere	везде
+nowhere	нигде
+act [ækt] v	действовать; n дело, поступок, акт
+America [ə'merɪkə] n	Америка
+arm [ɑ:m] n	рука (от кисти до плеча)
+bat [bæt] n	летучая мышь
+bite [baɪt] v	кусать; n укус
+blood [blʌd] n	кровь
+busy ['bɪzɪ] а	занятой; деятельный; трудолюбивый
+catch [kæʧ] v	ловить, поймать
+course [kɔ:s] n	курс, ход
+dark [dɑ:k] а	темный
+in the dark	в темноте
+deal [di:l] n; a great deal	много
+down [daʊn] adv	вниз; prep вниз по
+drink [drɪŋk] v	пить
+ear [ɪə] n	ухо
+enough [ɪ'nʌf] adv	достаточно
+even ['i:vn] adv	даже
+evening ['i:vnɪŋ] n	вечер
+eye [aɪ] n	глаз
+feel [fi:l] v	чувствовать
+fruit [fru:t] n	фpyкт(ы); плoд(ы)
+hard [hɑ:d] а	твердый
+harm [hɑ:m] n	вред; v вредить
+head [hed] n	голова; глава; v возглавлять
+help [help] v	помогать; n помощь
+hole [həʊl] n	дыра
+ill [ɪl] а	больной
+inch [ɪnʧ] n	дюйм
+insect ['ɪnsekt] n	насекомое
+join [ʤɔɪn] v	coeдинять(cя), пpиcoeдинять(cя); вступать
+leg [leg] n	нога (от ступни до бедра)
+like [lаɪk] adv	подобно, как; а похожий
+long [lɒŋ] а	длинный; adv долго
+mouse [mаʊs] n	мышь
+mice [mаɪs]	мн. ч. мыши
+narrow ['nærəʊ] а	узкий
+none [nʌn] pron, adv	никто, ничто, ни один, нисколько
+pass [pɑ:s] v	проходить; передавать
+skin [skɪn] n	кожа
+sleep [sli:p] v	спать; n сон
+so [səʊ] adv	так, таким образом, настолько
+then [ðen] adv	тогда, затем, потом
+though [ðəʊ] cj	хотя
+throat [θrəʊt] n	горло
+together [tə'ɡəðə] adv	вместе
+tooth [tu:θ] n	зуб
+teeth [ti:θ]	мн. ч. зубы
+touch [tʌʧ] v	трогать, касаться
+true [tru:] а	верный, правильный
+wing [wɪŋ] n	крыло
+adopt [ə'dɒpt] v	принимать, усваивать
+after ['ɑ:ftə] prep	после, зa; adv потом
+against [ə'gemst] prep	против
+battle [bætl] n	битва
+become [bɪ'kʌm]. Past Ind. became [bɪ'keɪm] v	стать, становиться
+before [bɪ'fɔ:] prep	перед, до; adv раньше, впереди
+between [bɪ'twi:n] prep	между
+Bible [baɪbl] n	Библия
+bring [brɪŋ] Past Ind. brought [brɔ:t] v	приносить
+Christian ['krɪsʧən] а	христианский
+complete [kəm'pli:t] а	полный; v завершать
+conquer ['kɒŋkə] v	завоевывать, побеждать
+conquest ['kɒŋkwest] n	завоевание
+difficult ['dɪfɪkəlt] а	трудный
+faith [feɪθ] n	вера
+father ['fɑ:ðə] n	отец
+fight [fait] Past Ind. fought [fɔ:t] v	драться, сражаться, бороться
+finally ['fаɪnəlɪ] adv	наконец
+first [fɜ:st] а	первый
+France [frɑ:ns] n	Франция
+French [frenʧ] а	французский
+general ['ʤenərəl] а	общий; n генерал
+grammar ['græmə] n	грамматика
+however [haʊ'evə] adv	однако
+king [kɪŋ] n	король
+land [lænd] n	земля
+landowner ['lænd,əʊnə] n	помещик, землевладелец
+language [læŋgwɪʤ] n	язык
+Latin ['lætɪn] n	латынь; а латинский
+law [lɔ:] n	закон, право
+learned ['lɜ:nɪd] а	ученый
+mass [mæs] n	масса; а массовый
+noble ['nəʊbl] а	благородный
+the nobles n	знать, дворяне
+Norman ['nɔ:mən] n	норманн; а норманнский
+opposite ['ɒpəzɪt] adv, prep	напротив, против
+own [əʊn] v	владеть
+peasant ['peznt] n	крестьянин
+poetry ['pəʊɪtrɪ] n	поэзия
+poor [pʊə] а	бедный
+quite [kwaɪt] adv	вполне, совсем, совершенно
+remain [rɪ'meɪn] v	оставаться
+rich [rɪʧ] а	богатый
+Roman ['rəʊmərɪ] а	римский
+same [seɪm] а	тот же, одинаковый
+speak [spi:k] Past Ind. spoke [spəʊk] v	говорить
+teach [ti:ʧ] Past Ind. taught[tɔ:t] v	учить, преподавать
+teacher ['ti:ʧə] n	учитель
+translation [træns'leɪʃn] n	перевод
+understand [,ʌndə'stænd] Past Ind. understood [,ʌndə'stʊd] v	понимать
+use [ju:s] n	употребление, использование, польза;
+use [ju:z] v	использовать, употреблять
+year [jɪə или jз:] n	год
+yesterday ['jestədɪ]	вчера
+last year [jɪə uлu jз:]	в прошлом году
+last month [mʌnθ]	в прошлом месяце
+ago [ə'ɡəʊ]	тому назад
+again [ə'ɡem], [ə'ɡən] adv	снова; опять
+apply [ə'plaɪ]	v относиться, применять(ся); обращаться, прилагать
+atmosphere ['ætməsfɪə]	n атмосфера
+barometer [bə'rɒmɪtə]	n барометр
+blow [bləʊ], blew [blu:]	v дуть
+blow-pipe [bləʊ,pаɪp]	n паяльная трубка
+cubic ['kju:bɪk]	а кубический
+determine [dɪ'tɜ:mɪn]	n определять
+discuss [dɪs'kʌs]	v обсуждать, дискутировать
+earth [ɜ:θ]	n земля
+exact [ɪɡ'zækt]	а точный
+example [ɪɡ'zɑ:mpl]	n пример
+figure ['fɪɡə]	n число, цифра; фигура; личность
+fill [fɪl]	v наполнять(ся)
+foot [tʊt]	n фут (= 30,48 см)
+full [fʊl]	а полный
+glass [ɡlɑ:s]	n стекло
+heat [hi:t]	v нагрeвать(cя); n теплота, жар, нагрев
+height [hаɪt]	n высота
+hot [hɒt]	а горячий
+if [ɪf]	cj если
+incandescent [,ɪnkæn'desnt]	a накаленный;
+incandescent lamp	лампа накаливания
+inch [ɪnʧ]	n дюйм (=2,54 см)
+level ['levl]	n уровень; а плоский, горизонтальный
+necessary ['nesəsərɪ]	а необходимый
+per [pɜ:]	prep за, на, в
+pipe [paɪp]	n труба, трубка
+pound [paʊnd]	n фунт (англ. фунт - 453.6 г)
+press [pres]	удавить; n давка; пpecc; пpecca, печать
+pressure ['preʃə]	n давление
+remember [rɪ'membə]	v помнить
+since [sɪns]	cj так как, поскольку; prep с, после; adv с тех пор
+spot [spɒt]	n место; пятно
+surface ['sɜ:fɪs]	n поверхность
+thus [ðʌs]	adv таким образом, так
+vary [veərɪ]	v мeнять(cя), разниться;
+various [veərɪəs]	a различный, разнообразный
+volume [vɒlju:m]	n емкость; объем; том (книги)
+weigh [weɪ]	v взвeшивать(cя); весить
+weight [weɪt]	n вес; тяжесть
+accident ['æksɪdənt]	n (несчастный) случай, авария
+airman ['eəmæn]	n летчик
+airmen ['eəmen]	летчики
+airplane ['eəpleɪn]	n самолет
+although [ɔ:l'ðəʊ]	adv xoтя; несмотря на то, что
+around [ə'raʊnd]	adv всюду, кругом; prep вокруг, около
+bottle ['bɒtl]	n бутылка
+car [kɑ:]	n повозка; вагон; автомобиль
+change [ʧeɪnʤ]	v мeнять(cя); n перемена
+cup [kʌp]	n чашка
+drop [drɒp]	v ронять, бросать, падать e
+empty ['emptɪ]	а пустой
+engine ['enʤɪn]	n машина, двигатель, мотор
+face [feɪs]	n лицо
+fire ['faɪə]	n огонь
+catch fire	загореться
+happen ['hæpən]	v случаться
+heavy ['hevɪ]	а тяжелый
+hold [həʊld], held [held], held	v держать
+jump [ʤʌmp]	v прыгать; n прыжок
+life [laɪf] (мн. ч. lives [laɪvz])	n жизнь
+lift [lɪft]	v поднимать
+motor-car	n автомобиль
+nose [nəʊz]	n нoc
+paper ['peɪpə]	n бумага
+parachute ['pærəʃu:t]	n парашют
+pull [pʊl]	v тянуть, тащить, дергать
+push [pʊʃ]	v толкать
+quickly ['kwɪklɪ]	adv быстро, скоро
+reach [ri:ʧ]	v достигать
+rise [raɪz], rose [rəʊz], risen ['rɪzn]	v подниматься
+run [rʌn], ran [ræn], run	v бежать, двигаться
+start [stɑ:t]	v начинать, стартовать, пycкaть(cя)
+stone [stəʊn]	n камень
+stop [stɒp]	v останавливaть(-cя), удерживать
+strength [streŋθ]	n сила
+such [sʌʧ]	а такой
+useful ['ju:sfʊl]	а полезный
+wheel [wi:l]	n колесо
+without [wɪð'aʊt]	prep без
+wood [wʊd]	n дерево (материал); лес
+to come in	входить куда-либо
+to go in	входить откуда-либо
+to come out	выходить куда-либо
+to go out	выходить откуда-либо
+to move in	въезжать
+to run in	вбегать
+to move out	выезжать
+to run out	выбегать
+go back	возвратиться
+take back	взять обратно
+bring back	принести обратно
+give back	вернуть
+put off	отложить
+put on	наложить, надеть
+Go on!	Продолжайте!
+get off (the train)	сойти (с поезда)
+application [æplɪ'keɪʃn]	n применение, использование
+arithmetic [ə'rɪθmətɪk]	n арифметика; а арифметический
+array [ə'reɪ]	n множество
+attach [ə'tæʧ]	v прикреплять, присоединять
+board [bɔ:d]	n доска; плата
+break [breɪk], broke [brəʊk], broken [brəʊkn]	v ломать, разрушать; разбивать
+cabinet ['kæbɪnɪt]	n футляр; упаковка; ящик
+carry ['kærɪ]; carry out	v носить, возить; осуществлять, проводить
+cathode ['kæθəʊd]	n катод
+circuit ['sɜ:kɪt]	n цепь; сеть; контур
+collectively [kə'lektɪvlɪ]	adv совместно
+communicate [kə'mju:nɪkeɪt]	v передавать, сообщать
+computer [kəm'pju:tə]	n компьютер, ЭВМ
+personal computer	персональный компьютер
+conductor [kən'dʌktə]	n проводник
+constitute ['kɒnstɪtju:t]	v составлять
+convert [kən'vɜ:t]	n превращать
+core [kɔ:]	n сердцевина, ядро, суть, сущность
+device [dɪ'vaɪs]	n устройство, приспособление
+digital ['dɪʤɪtəl]	а цифровой
+display [dɪs'pleɪ]	v показывать, демонстрировать
+edit ['edɪt]	v редактировать
+enable [ɪn'eɪbl]	v позволять, делать возможным
+enclose [ɪn'kləʊz]	v заключать, вставлять, вкладывать
+enter ['entə]	v входить; поступать
+entire [ɪn'taɪə]	а полный, целый, весь
+equation [ɪ'kweɪʃn]	n уравнение
+flow [fləʊ]	n поток
+function ['fʌŋkʃn]	n функция
+govern ['ɡʌvən]	v управлять
+hardware ['hɑ:dweə]	n механическая часть компьютера
+heart [hɑ:t]	n сердце; сердцевина, основа
+human ['hju:mən]	а человеческий
+input ['ɪnput]	n ввод (информации в компьютер)
+instance ['ɪnstəns]	n случай
+interconnect [,ɪntəkə'nekt]	v соединять, связывать
+itself; by itself [bаɪ ɪt'self]	сама по себе
+keyboard ['ki:bɔ:d]	n клавиатура
+machine [mə'ʃi:n]	n машина; механизм, устройство
+magnetic [məɡ'netɪk]	а магнитный
+manage ['mæmʤ]	v руководить, управлять, заведовать, стоять во главе
+manipulate [mə'nɪpju:leɪt]	v манипулировать; (умело) обращаться, управлять
+means [mi:nz]	n (употр. как форма ед. имн. числа) способ, средство;
+by means of	при помощи, посредством
+mediate ['mi:dɪeɪt]	v быть посредником, связующим звеном
+memory ['memərɪ]	n память
+mount [mаʊnt]	v устанавливать, монтировать
+nothing ['nʌθɪŋ]	pron ничто, ничего
+ordinary ['ɔ:dɪnrɪ]	а обыкновенный, обычный
+output ['aʊtpʊt]	n вывод (информации)
+own [əʊn]	а свой, собственный
+perform [pə'fɔ:m]	v осуществлять; исполнять, выполнять
+power ['paʊə]	n энергия
+primary ['praɪmərɪ]	а первичный
+printed pattern	печатная схема
+quarter ['kwɔ:tə]	n четверть
+ray [reɪ]	n луч
+receive [rɪ'si:v]	v получать
+require [rɪ'kwaɪə]	v требовать; нуждаться (в чем-л.)
+screen [skri:n]	n экран; монитор
+second ['sekənd]	n секунда
+secondary ['sekəndərɪ]	a вторичный
+several ['sevrəl]	а несколько
+silicon ['sɪlɪkən]	n кремний
+single ['sɪŋɡl]	а единственный, один; отдельный
+software ['sɒftweə]	n программное обеспечение компьютера
+solve [sɒlʊ]	v решать (задачу и т.п.)
+specific [spɪ'sɪfɪk]	а специальный, конкретный
+storage ['stɒrɪʤ]	n склад, хранилище; накопитель, запоминающее устройство, память
+store [stɔ:]	v хранить, сохранять; запасать
+supervise ['sju:pəvаɪz]	v наблюдать; заведовать; управлять
+supply [sə'plаɪ]	v снабжать, обеспечивать
+tape [teɪp]	n лента
+task [tɑ:sk]	n задача, задание
+transfer [træns'fɜ:]	v передавать; переносить, переводить
+tube [tju:b]	n труба; трубка
+unit ['ju:nɪt]	n единица (измерения); установка, аппарат, прибор, устройство
+above [əbʌv]	adv наверху, выше, наверх; prep над, свыше
+across [ə'krɒs]	adv поперек; prep сквозь, через
+afraid [ə'freɪd]	а испуганный
+to be afraid	бояться
+another [ə'nʌðə]	a, pron другой
+away [ə'weɪ]	adv прочь; вдаль (см. пояснения к словам)
+below [bɪ'ləʊ]	prep ниже, под; adv ниже, внизу
+burn [bɜ:n], burnt [bɜ:nt] или burned [bɜ:nd]	v гореть, жечь
+camera ['kæmərə]	n фотоаппарат
+class [klɑ:s]	n класс;
+first-class	а первоклассный
+cloud [klaʊd]	n облако
+coat [kəʊt]	n пальто; пиджак, жакет; покров
+crater ['kreɪtə]	n кpaтep
+distance ['dɪstəns]	n расстояние
+disturb [dɪs'tɜ:b]	v нарушать, беспокоить, расстраивать
+disturbance [dɪs'tɜ:bəns]	n нарушение, смещение; геол. дислокация
+door [dɔ:]	n дверь
+during ['djʊərɪŋ]	prep в течение, во время
+equipment [ɪ'kwɪpmənt]	n оборудование
+eruption [ɪ'rʌpʃn]	n извержение
+formation [fɔ:'meɪʃn]	n образование, формирование
+fountain ['faʊntɪn]	n фонтан
+gun [ɡʌn]	n пушка; ружье; револьвер;
+gun-fire	орудийный огонь
+lava ['lɑ:və]	n лaвa
+main [meɪn]	а главный
+mineral ['mɪnərəl]	n минерал; а минеральный
+mountain ['mаʊntɪn]	n гора
+need [ni:d]	v нуждаться, иметь надобность; n надобность, нужда, потребность
+noise [nɔɪz]	n шум
+object ['ɒbʤɪkt]	n предмет, объект
+picture ['pɪkʧə]	n картина, фотоснимок, изображение
+reflect [rɪ'flekt]	v отражать
+register ['reʤɪstə]	v регистрировать(ся), отмечать
+silence ['saɪləns]	n тишина, безмолвие
+sky [skaɪ]	n небо
+smoke [sməʊk]	n дым; v дымить(cя), курить
+soon [su:n]	adv скоро, вскоре
+stand [stæпd], stood [stʊd], stood	v стоять
+tongue [tʌŋ]	n язык
+towards [tə'wɔ:dz]	prep к, пo направлению к; по отношению к
+tremor ['tremə]	n дрожание, колебание; зд. толчок
+watch [wɒʧ]	v наблюдать; n часы (карманные, наручные); вахта
+weak [wi:k]	а слабый
+width [wɪdθ]	n ширина
+yard [jɑ:d]	n ярд (около 91 см)
+automatic [,ɔ:tə'mætɪk]	а автоматический
+blacken ['blækən]	v покрывать черной краской, чернить
+boil [bɔɪl]	v кипятить, кипеть
+boiler ['bɔɪlə]	n кипятильник, котел
+century ['senʧərɪ]	n столетие
+coal [kəʊl]	n yгoль
+directly [dɪ'rektlɪ]	adv прямо, непосредственно
+dry [drаɪ]	v сушить; а сухой
+else [els]	adv еще, кроме
+energy ['enəʤɪ]	n энергия
+escape [ɪs'keɪp]	v убегать; n утечка
+factory ['fæktərɪ]	n фабрика
+form [fɔ:m]	n форма; v формироваться
+fuel [fju:əl]	n горючее, топливо
+gallon ['ɡælən]	n галлон (мера жидких и сыпучих тел; англ. галлон = 4,54 л)
+get [get], got [ɡɒt], got	v получать, становиться
+half [hɑ:f]	n (мн. ч. halves) половина
+heater ['hi:tə]	n нагревательный прибор, кипятильник
+hotbed ['hɒtbed]	n парник
+hothouse ['hɒthaʊs]	n теплица, оранжерея
+inside ['ɪnsaɪd]	prep, adv внутри, внутрь
+insulating ['ɪnsjʊleɪtɪŋ]	а изоляционный
+iron ['aɪən]	n железо
+light [laɪt]	n свет, а светлый, легкий
+method ['meθəd]	n метод
+natural ['næʧrəl]	а натуральный, естественный
+oil [ɔɪl]	n нефть, масло (минеральное или растительное)
+popular ['pɒpjʊlə]	а популярный
+possible ['pɒsəbl]	а возможный
+process ['prəʊses]	n процесс
+rapidly ['ræpɪdlɪ]	adv быстро, скоро
+refrigerator [rɪ'frɪʤəreɪtə]	n рефрижератор, холодильник
+row [rəʊ]	n ряд
+rubber ['rʌbə]	n резина
+simple ['sɪmpl]	а простой
+solar ['səʊlə]	а солнечный
+sun [sʌn]	n солнце
+sunny ['sʌnɪ]	а солнечный
+supply [sə'plaɪ]	n запас, снабжение; v снабжать
+temperature ['temprɪʧə]	n температура
+transform [træns'fɔ:m]	v переоборудовать, трансформировать, превращать
+tubing ['tju:bɪŋ]	n труба, тюбинг
+while [waɪl]	adv, cj в то время как, пока; несмотря на то, что; тогда как
+whole [həʊl]	a целый, весь
+not yet	еще не
+ever	когда-либо
+absolutely ['æbsəlu:tli]	adv абсолютно
+accordingly [ə'kɔ:dɪŋlɪ]	adv соответственно
+afterwards ['ɑ:ftəwədz]	adv потом, впоследствии
+autobiography [,ɔ:təʊbаɪ'ɒɡrəfɪ]	n автобиография
+bean [bi:n]	n боб
+belief [bɪ'li:f]	n вера, убеждение
+botanist ['bɒtənɪst]	n ботаник
+common ['kɒmən]	а простой, обычный, общий
+county ['kаʊntɪ]	n графство, округ (административная единица)
+evidence ['evɪdəns]	n доказательство, свидетельство
+fact [fækt]	n факт
+farmer ['fɑ:mə]	n фермер
+field [fi:ld]	n поле, зд. полевой
+foundation [faʊn'deɪʃn]	n основание, основа
+further ['fɜ:ðə]	а дальнейший, добавочный; adv дальше, затем
+gardener ['ɡɑ:dnə]	n садовник
+gentleman ['ʤentlmən]	n господин, джентльмен
+idea [aɪ'dɪə]	n идея, мысль
+indeed [ɪn'di:d]	adv в самом деле, действительно
+informant [ɪn'fo:mənt]	n осведомитель, зд. корреспондент
+information [,ɪnfə'meɪʃn] 	n информация, сведения
+intelligent [ɪn'telɪʤənt]	а разумный, сознательный, способный
+leap-year ['li:pjɜ:]	n високосный год
+local ['ləʊkəl]	а местный
+mistake [mɪs'teɪk]	n ошибка
+newspaper ['nju:s,peɪpə]	n газета
+paragraph ['pærəɡrɑ:f]	n заметка (газетная), абзац, параграф
+pod [pɒd]	n стручок
+publish ['pʌblɪʃ]	v издавать, публиковать
+remarkable [rɪ'mɑ:kəbl]	а замечательный
+seed [si:d]	n семя, семена
+sir [sɜ:]	n сэр, сударь
+spread [spred], spread, spread	v распространяться
+statement ['steɪtmənt]	n утверждение, заявление
+stick [stɪk], stuck [stʌk], stuck	v приклеиваться, крепко держаться
+whether ['weðə]	сj ли (вводит косвенный вопрос)
+wrong [rɒŋ]	а неправильный, не тот
+on the wrong side	"<span style=""font-family: 'Liberation Sans'"">не на той стороне</span>"
+already [ɔ:l'redɪ]	adv уже
+article ['ɑ:tɪkl]	n статья
+beat [bi:t], beat, beaten ['bi:tn]	v бить
+bend [bend], bent [bent], bent	v cгибaть(cя), гнyть(cя)
+brother ['brʌðə]	n брат
+chicken ['ʧɪkɪn]	n курица, цыпленок
+courageous [kə'reɪʤəs]	a храбрый, мужественный
+cross [krɒs]	v пересекать; n крест
+cruel [krʊəl]	а жестокий
+danger ['deɪnʤə]	n опасность
+decide [dɪ'saɪd]	v решать
+die [daɪ]	v умирать
+dying ['daɪɪŋ]	умирающий
+earn [ɜ:n]	v зарабатывать
+exist [ɪɡ'zɪst]	v существовать
+follow ['fɒləʊ]	v следовать (за)
+food [fu:d]	n пища
+glory ['ɡlɔ:rɪ]	n благодать
+gold [ɡəʊld]	n золото
+heaven ['hevn]	n небо, небеса
+job [ʤɒb]	n работа; место, служба
+lead [li:d], led [led], led	v вести, руководить
+leader ['li:də]	n вождь, лидер, руководитель
+lose [lu:z], lost [lɒst], lost	v терять, проигрывать
+love [lʌv]	v любить; n любовь
+money ['mʌnɪ]	n деньги
+name [neɪm]	n имя
+Negro ['ni:ɡrəʊ]	n негр; а негритянский
+organize ['ɔ:ɡənaɪz]	v организовать
+party ['pɑ:tɪ]	n партия
+passenger ['pæsɪnʤə]	n пассажир
+railroad ['reɪlrəʊd]	n железная дорога
+return [rɪ'tɜ:n]	v вoзвpaщaть(cя)
+road [rəʊd]	n дорога
+safely ['seɪflɪ]	adv безопасно; в безопасности
+save [seɪv]	v спасти, сберечь
+secret ['si:krɪt]	а тайный, секретный; n секрет
+shine [ʃаɪn], shone [ʃɒn], shone	v сиять, светить
+sister ['sɪstə]	n сестра
+slave [sleɪv]	n раб, невольник
+slavery ['sleɪvərɪ]	n рабство
+star [stɑ:]	n звезда
+story ['stɔ:rɪ]	n рассказ, история
+system ['sɪstɪm]	n система
+until [ʌn'tɪl] prep, cj	до; до техпор пока
+win [wɪn], won [wʌn], won	v добиться, одержать победу, выиграть
+wonderfully ['wʌndəfʊlɪ]	adv замечательно, удивительно
+dangerous ['deɪnʤərəs]	опасный
+As long as	пока, раз
+as well as	так же хорошо, как и; а также
+as if, as though	как будто
+as for, as to	что касается
+remark	замечать
+changeable	изменчивый
+applicable	применимый
+untranslatable	не поддающийся переводу
+undrinkable (water)	непригодная для питья (вода)
+unthinkable	немыслимый
+mountainous	гористый
+voluminous	огромный, объемистый
+various	различный
+useful	полезный
+faithful	верный
+lawful	законный
+useless	бесполезный
+faithless	неверный (друг)
+lawless	беззаконный
+peasantry	крестьянство
+among [ə'mʌŋ]	prep среди, между
+angry ['æŋɡrɪ]	а сердитый, злой
+attention [ə'tenʃn]	n внимание;
+pay attention to	обращать внимание на
+breath [breθ]	n дыхание;
+breathe [bri:ð]	v дышать
+button ['bʌtn]	n кнопка, пуговица
+clearly ['klɪəlɪ]	adv ясно
+close [kləʊz]	v зaкpывaть(cя); а закрытый; близкий; тесный;
+be close (to)	быть очень близко (от, к)
+continue [kən'tɪnju:]	v продолжать
+dead [ded]	а мертвый
+dust [dʌst]	n пыль; прах; порошок
+enemy ['enɪmɪ]	n враг
+few [fju:]	а немногие, мало;
+a few	несколько
+flat [flæt]	а плоский; n квартира
+grass [ɡrɑ:s]	n трава
+grey [ɡreɪ]	а серый
+horn [hɔ:n]	n рог
+huge [hju:ʤ]	а огромный, громадный
+just [ʤʌst]	adv точно, именно, только (что)
+kill [kɪl]	v убивать
+laugh [lɑ:f]	v смеяться
+lie [laɪ], lay [leɪ], lain [leɪn]	v лежать;
+Part. I lying ['laɪɪŋ]	лежащий
+minute ['mɪnɪt]	n минута
+moment ['məʊmənt]	n момент
+order ['ɔ:də]	n порядок, приказ;
+in order to	для того чтобы
+past [pɑ:st]	prep мимо, n прошлое
+pay [peɪ], paid [peɪd], paid	v платить
+photograph ['fəʊtəɡrɑ:f]	n фотоснимок; v фотографировать
+pig [pɪɡ]	n свинья
+point [pɔɪnt]	v указывать; направлять на (at); n точка, пункт
+ready ['redɪ]	а готовый;
+get ready	пpигoтoвить(cя)
+rhino ['raɪnəʊ] = rhinoceros [raɪ'nɒsərəs]	n носорог
+rush [rʌʃ]	v мчаться, бросаться, нестись
+shake [ʃeɪk], shook [fʊk], shaken ['ʃeɪkn]	v тpяcти(cь)
+sharp [ʃɑ:p]	а острый
+shout [ʃaʊt]	v кричать
+sight [saɪt]	n зрение; вид, зрелище;
+be out of sight	скрыться из виду
+straight [streɪt]	а прямой; adv прямо
+sure [ʃʊə]	а верный, надежный, уверенный;
+I am sure	я уверен
+therefore ['ðeəfɔ:]	adv поэтому, следовательно
+throw [θrəʊ], threw [θru:], thrown [θrəʊn]	v бросать
+ton [tʌn]	n тонна
+train [treɪn]	n поезд
+turn [tɜ:n]	v вpaщaть(cя); вepтeть(cя);
+turn away	свернуть, oтвepнyть(cя)
+unless [ʌn'les]	сj если ... не
+wait [weɪt]	v ждать
+achievement [ə'ʧi:vmənt]	n достижение
+afloat [ə'fləʊt]	adv на плaвy
+to stay afloat	держаться на поверхности, не тонуть
+allocations [,ælə'keɪʃnz]	n ассигнования
+ambitious [əm'bɪʃəs]	а амбициозный, грандиозный
+assail [ə'seɪl]	v нападать, резко критиковать
+association [ə,səʊsɪ'eɪʃn]	n объединение, ассоциация
+astronaut ['æstгənɔ:t]	n астронавт, космонавт
+authority, мн. ч. -ties [ɔ:'θɒrɪtɪ(z)]	n pl власти, руководство
+billion ['bɪljən]	n миллиард (в США)
+break apart ['breɪk ə'pɑ:t]	v распадаться, разрываться
+bulk [bʌlk]	n основная масса; бóльшая часть
+cargo ship ['kɑ:ɡəʊʃɪp]	n грузовой корабль
+despite [dɪ'spaɪt]	prep несмотря на
+edge [eʤ]	n острие; край, кромка;
+to lose one's edge	утратить преимущество, превосходство
+exemplify [ɪɡ'zemplɪfaɪ]	v пояснять, подтверждать примером
+exploration [,eksplə'reɪʃn]	n исследование, освоение
+fail [feɪl]	v 1. терпеть неудачу; 2. проваливаться на экзамене; 3. не суметь, оказаться неспособным сделать (что-л.)
+fall behind ['fɔ:l bɪ'haɪnd]	v отставать; уступать первенство
+fleet [fli:t]	n флот
+flight [flaɪt]	n полет
+fund [fʌnd]	n pl фонды, денежные средства;
+funding ['fʌndɪŋ]	n финансирование
+government ['ɡʌvənmənt]	n правительство
+ground [ɡraʊnd]	v приземлять, спускать на землю
+increase [ɪn'kri:s]	v увеличивать; n увеличение, рост
+intend [ɪn'tend]	v намереваться; иметь целью
+lack [læk]	v испытывать нехватку (в чём-л.), нуждаться
+launch [lɔ:nʧ]	v запускать (спутник, ракету); n запуск (спутника, ракеты)
+link [lɪŋk]	n связь
+lunar base [,lu:nə 'beɪs]	база, станция на Луне
+markedly ['mɑ:kɪdlɪ]	adv существенно, заметно
+mission ['mɪʃn]	n миссия; призвание; воен. задача;
+manned mission	пилотируемый (космический) полет
+moderate ['mɒdərɪt]	а умеренный, средний
+nation ['neɪʃn]	n 1. народ, нация; 2. страна, государство
+nongovernmental [,nɒnɡʌvən'mentəl]	а неправительственный
+outrageous [aʊt'reɪʤəs]	а возмутительный, оскорбительный
+ponder ['pɒndə]	v размышлять
+precipitously [prɪ'sɪpɪtəslɪ]	adv круто, резко; опасно
+preparation [,prepə'reɪʃn]	n подготовка
+provide [prə'vaɪd]	v снабжать, обеспечивать
+recent ['ri:snt]	а недавний; последний
+recover [rɪ'kʌvə]	v 1. выздоравливать; поправляться; 2. оправляться от последствий
+research [rɪ'sɜ:ʧ]	n (научное) исследование, изыскание
+revive [rɪ'vaɪv]	v возрождать, оживлять; восстанавливать
+roughly ['rʌflɪ]	adv грубо; приблизительно, примерно
+round trip (to Mars)	пилотируемый полет на Марс и возвращение на Землю
+Russian Academy of Space	Российская космическая академия
+shrink [ʃrɪŋk], shrank [ʃræŋk], shrunk [ʃrʌŋk]	v сжиматься, уменьшаться
+shuttle [ʃʌtl]	n челночный космический корабль
+space mission ['speɪs,mɪʃn]	космический полет
+space program ['speɪs ,prɒɡrəm]	космическая программа
+spacecraft ['speɪskrɑ:ft]	n космический корабль; космический летательный аппарат
+spend [spend], spent [spent], spent	v тратить (деньги), проводить (время)
+still [stɪl]	adv все еще, пока
+top expert	ведущий эксперт, специалист
+warn [wɔ:n]	v предупреждать
+cramp [kræmp]	ограничивать, тесный
+inhabitant [ɪnˈhæbɪtənt]	житель, обитатель
+lavatory [ˈlævətərɪ]	туалет
+facility [fəˈsɪlɪtɪ]	сооружение, средство
+fluid [ˈflu:ɪd]	жидкость
+headache [ˈhedeɪk]	головная боль
+appearance [əˈpɪərəns]	кажущийся, появление
+adjusts [əˈdʒʌst]	приспосабливаться, регулировать
+sensation [senˈseɪʃən]	ощущение
+weightlessness [ˈweɪtlɪsnɪs]	невесомость
+muscle [ˈmʌsl]	мышца
+bone [bəun]	кость
+kidney [ˈkɪdnɪ]	почка
+vital [ˈvaɪtl]	жизненно важный
+powder [ˈpaudə]	порошок
+dine [daɪn]	ужинать, обедать
+separate ['sep(ə)rət]	отделять, отдельный
+cater [ˈkeɪtə]	обслуживать, удовлетворять
+larder [ˈlɑ:də]	кладовая
+design [dɪˈzaɪn]	проектировать, создавать
+sustain [səsˈteɪn]	задержка, выдерживать
+replenish [rɪˈplenɪʃ]	пополнять
+essential [ɪˈsenʃəl]	существенный, необходимый, важный
+wheat [wi:t]	пшеница
+chamber [ˈtʃeɪmbə(r)]	камера, палата
+moisture [ˈmɔɪstʃə]	влажность
+nutrient [ˈnju:trɪənt]	питательное вещество
+early [ˈə:lɪ]	рано, на ранней стадии
+perhaps [pəˈhæps]	возможно, может быть
+courtesy [ˈkə:tɪsɪ]	любезность, благодарность
+trial [ˈtraɪəl]	эксперимент, испытание
+produce ['prɔdjuːs]	производить, продукция
+meltdown [ˈmeltdaʊn]	крах
+fraction [ˈfrækʃən]	часть
+allow [əˈlau]	позволять
+struggling [ˈstrʌɡl]	борьба, усилие
+proud	гордиться
+expect	ожидать
+involved	участие
+nonsense	ерунда
+beefy	мускулистый
+neck	шея
+twice	дважды
+amount	количество
+craning	вытягивая
+fences	заборы
+finer	тоньше
+bear	медведь; скрывать
+shuddered	вздрогнул
+suggest	предложить
+hummed	гудели
+boring, dull	скучный
+tie	галстук
+gossip	сплетни
+wrestled	боролся
+screaming	кричать
+notice	уведомление
+tawny	темно-желтый
+owl	сова
+flutter	порхание
+briefcase	портфель
+pecked	клюнул
+cheek	щека
+tantrum	вспышка гнева
+cereal	зерновой, хлопья
+tyke	грубиян
+chortle	хихикать
+corner	угол
+peculiar	своеобразный
+jerked	резко
+tabby	полосатый
+sight	зрение
+trick	трюк (t)
+blink	мигать
+stare	глазеть
+drove	поехал
+shake	трясти
+drills	сверла
+cloak	плащ
+getup	вставать
+suppose	предполагаю
+drummed	барабанил
+steering	рулевое
+huddle	жаться
+weirdos	чудаки
+whisper	шепот
+excited	возбужденный, взволнованный
+enraged	разъяренный
+wearing	носить
+emerald-green	изумрудно-зеленый
+struck	ударил
+probably	вероятно
+silly	глупый
+stunt	трюк
+obviously	очевидно
+swooping	парящий
+broad	широкая
+gaze	пристально смотреть
+sped	ускоренный
+yelled	завопил
+mood	настроение
+bakery	пекарня
+bunch	группа, команда
+tin	банка
+clutching	сжимая
+doughnut	пончик
+hurried	поспешный
+snapped	отрезал
+stroked	погладил
+nephew	племянник
+upset	расстройство
+mention	упомянуть
+grunted	буркнул
+stumbled	споткнуться
+contrary	наоборот, вопреки
+split	разделение
+squeaky	скрипучий
+passersby	прохожий
+rejoice	радоваться
+celebrating	празднование
+rooted	коренящийся
+whatever	неважно
+rattled	трястись, дребезжать
+approve	одобрять
+loudly	громко
+stern	суровый, грозный
+sightings	наблюдения
+grin	усмешка
+oddly	странно
+instead	вместо
+downpour	ливень
+wet	влажный
+observations [ˌɔbzə:ˈveɪʃən]	наблюдения
+environment [ɪnˈvaɪərənmənt]	окружающая среда
+trace [treɪs]	след, следить
+origin [ˈɔrɪdʒɪn]	происхождение
+pollution [pəˈlu:ʃən]	загрязнение
+detection [dɪˈtekʃən]	обнаружение
+degree [dɪˈɡri:]	степень, градус
+waste [weɪst]	отход, расход, пустая трата
+except	кроме, исключая
+hug	объятие
+stuff	материал
+mumbled	забормотал
+crowd	толпа
+sipped	отпил
+pursed	поджал
+dared	осмелился
+casual	случайный
+stiffly	сухо
+nasty	противный
+sinking	погружение
+horribly	ужасно
+agree	согласиться
+upstairs	наверх
+crept	закралась
+peer	заглянуть
+relate	относиться
+awake	проснулся
+yawn	зевать
+quiver	дрожь
+slammed	захлопнул
+midnight	полночь
+popped	выскочил
+twitched	дернулись
+judging	если судить
+beard	борода
+tuck	складка
+belt	ремень
+robes	одеяние
+purple	пурпурный
+swept	прокатилась
+heel	каблук
+buckled boots	с пряжками сапоги
+bright	яркий
+sparkling	сверкающий
+spectacles	очки
+crooked	кривой
+realize	понимать
+rummaging	рыться
+amuse	забавлять
+chuckled	усмехнулся
+muttered	пробормотал
+flicked	щелкнул
+pinpricks	уколы
+pavement	тротуар
+slipped	выскользнул
+rather	скорее
+severe	суровый
+markings	маркировка
+tight bun	тугой узел
+distinctly	отчетливо
+ruffled	трепал
+fancy	фантазия, удивительно
+stiff	жесткий
+dozen	дюжина
+feasts	праздники
+sniffed	понюхал
+impatiently	с нетерпением
+bound	граница
+bet	делать ставку
+sense	смысл
+gently	мягко
+precious	драгоценный
+irritably	раздраженно
+downright	совершенно
+swapping	замена
+rumor	слух
+sharp	острая
+sideways	боком
+glance	взгляд
+certainly	безусловно
+care	забота
+sensible	разумный
+persuade	убеждать
+proper	надлежащий
+flinched	вздрогнул
+confusing	запутанной
+frightened	испуганный
+exasperated	раздраженный
+admiring	любуясь
+flatter	льстить
+blushed	покраснел
+earmuffs	теплые наушники
+anxious	тревожный
+piercing	пронзительный
+attract [əˈtrækt]	привлекать
+permanent [ˈpə:mənənt]	постоянный, долговременный
+dozen [ˈdʌzn]	десятки, дюжина
+mention [ˈmenʃən]	упоминать
+seldom [ˈseldəm]	редко
+quotation [kwəuˈteɪʃən]	цитата
+explain [ɪksˈpleɪn]	объяснять
+small type	мелкий шрифт
