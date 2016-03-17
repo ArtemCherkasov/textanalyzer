@@ -12,6 +12,7 @@
 #include "SFML/Graphics.hpp"
 #include "TextField.h"
 #include <vector>
+#include <exception>
 
 class ContextMenu {
 private:
