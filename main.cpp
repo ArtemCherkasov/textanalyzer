@@ -15,7 +15,7 @@ int main()
     shape.setFillColor(sf::Color::Green);
     TextField *text_field = new TextField(WIDTH - 100, HEIGHT, &window);
     ScrollBar *scroll_bar = new ScrollBar(WIDTH, HEIGHT, &window);
-    ContextMenu *context_menu = new ContextMenu(100, 180, &window);
+    ContextMenu *context_menu = new ContextMenu(150, 220, &window, text_field);
     text_field->loadText();
 
     float time_count = 0;

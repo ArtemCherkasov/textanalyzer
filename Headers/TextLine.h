@@ -24,6 +24,7 @@ private:
 	int position_y;
 public:
 	std::vector<WordBlock> word_block_list;
+	int word_block_list_size;
 	TextLine(int id, int width, int height, int margin_bottom, int space);
 	void addWordBlock(WordBlock word_block);
 	int getHeight() const;

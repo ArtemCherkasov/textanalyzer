@@ -10,6 +10,8 @@
 
 #include <iostream>
 #include "SFML/Graphics.hpp"
+#include "TextField.h"
+#include <vector>
 
 class ContextMenu {
 private:
@@ -21,8 +23,9 @@ private:
 	sf::RectangleShape menu;
 	bool visible = false;
 	bool mouse_cliked = false;
+	TextField *text_field;
 public:
-	ContextMenu(int width, int height, sf::RenderWindow *window);
+	ContextMenu(int width, int height, sf::RenderWindow *window, TextField *text_field);
 	void draw();
 	void setVisible(bool);
 	void setCoordinates(int x, int y);

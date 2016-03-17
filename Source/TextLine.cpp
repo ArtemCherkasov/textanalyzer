@@ -15,13 +15,14 @@ TextLine::TextLine(int id, int width, int height, int margin_bottom, int space){
 	this->margin_bottom = margin_bottom;
 	this->space = space;
 	this->position_y = id*18 + 10;
-
+	this->word_block_list_size = 0;
 }
 
 void TextLine::addWordBlock(WordBlock word_block){
 	word_block.setPosition(this->width, this->position_y);
 	this->word_block_list.push_back(word_block);
 	this->width += word_block.getWidth() + this->space;
+	++this->word_block_list_size;
 }
 
 int TextLine::getHeight() const {

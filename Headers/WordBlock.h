@@ -15,7 +15,10 @@
 
 class WordBlock {
 private:
+	int x;
+	int y;
 	int width;
+	int height;
 	int size;
 	std::string word;
 	sf::Text text_sfml;
@@ -26,14 +29,17 @@ public:
 	WordBlock();
 	WordBlock(std::string word, sf::Font *font, bool block);
 	void addWord(std::string word, sf::Font *font);
-	const std::string& getWord() const;
+	std::string getWord();
 	void setWord(const std::string& word);
 	void draw();
-	int getWidth();
 	const sf::Text getTextSfml();
 	const sf::RectangleShape getRectangle();
 	void setPosition(float x, float y);
 	bool getBlock();
+	int getX();
+	int getY();
+	int getWidth();
+	int getHeigth();
 };
 
 #endif /* HEADERS_WORDBLOCK_H_ */

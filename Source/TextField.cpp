@@ -44,16 +44,14 @@ void TextField::draw(int position_y){
 
 	//***********
 	//int id = (position_y - 10)/18;
-	int id = position_y*this->text_line_list.size()/100;
-	this->move_position = id*18;
-	int size = this->text_line_list.size();
-	for(int i = id; i < (id + 50); ++i){
+	this->id_text_line = position_y*this->text_line_list.size()/100;
+	this->move_position = this->id_text_line*18;
+	//int size = this->text_line_list.size();
+	for(int i = this->id_text_line; i < (this->id_text_line + 50); ++i){
 		int size_line = this->text_line_list[i].word_block_list.size();
 		for (int j = 0; j < size_line; ++j){
-			//std::cout << this->text_line_list[i].word_block_list[j].getWord() << std::endl;
-			//this->window->draw(this->text_line_list[i].word_block_list[j].getRectangle());
 			int y = this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().y;
-			this->text_line_list[i].word_block_list[j].setPosition(this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().x, this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().y - id*18 - 10);
+			this->text_line_list[i].word_block_list[j].setPosition(this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().x, this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().y - this->id_text_line*18 - 10);
 			if(this->text_line_list[i].word_block_list[j].getBlock()){
 				this->window->draw(this->text_line_list[i].word_block_list[j].getRectangle());
 			}
@@ -100,4 +98,12 @@ void TextField::toTextLine(std::string word, bool block){
 
 bool TextField::isLoad(){
 	return this->load;
+}
+
+int TextField::getTextLineId(){
+	return this->id_text_line;
+}
+
+std::vector<TextLine> TextField::getTextLineList(){
+	return this->text_line_list;
 }

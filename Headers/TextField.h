@@ -31,7 +31,7 @@ private:
 	int height;
 	int move_position;
 	sf::Font font;
-	std::vector<TextLine> text_line_list;
+
 	int text_line_index;
 	sf::RenderWindow *window;
 	void toTextLine(std::string word, bool block);
@@ -41,7 +41,9 @@ private:
 	FileSystem *file_system;
 	LexiconHandle *lexiconHandle;
 	bool load;
+	int id_text_line;
 public:
+	std::vector<TextLine> text_line_list;
 	TextField(int width, int height, sf::RenderWindow *window);
 	void loadText();
 	int getHeight() const;
@@ -51,6 +53,8 @@ public:
 	void draw(int position_y);
 	int getMovePosition();
 	bool isLoad();
+	int getTextLineId();
+	std::vector<TextLine> getTextLineList();
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */
