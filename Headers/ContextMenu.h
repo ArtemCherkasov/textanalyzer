@@ -8,6 +8,7 @@
 #ifndef HEADERS_CONTEXTMENU_H_
 #define HEADERS_CONTEXTMENU_H_
 
+#include <iostream>
 #include "SFML/Graphics.hpp"
 
 class ContextMenu {
@@ -17,12 +18,16 @@ private:
 	int x;
 	int y;
 	sf::RenderWindow *window;
+	sf::RectangleShape menu;
+	bool visible = false;
+	bool mouse_cliked = false;
 public:
-	ContextMenu(int x, int y, int width, int height, sf::RenderWindow *window);
-	int getX();
-	void setX(int x);
-	int getY();
-	void setY(int y);
+	ContextMenu(int width, int height, sf::RenderWindow *window);
+	void draw();
+	void setVisible(bool);
+	void setCoordinates(int x, int y);
+	void setMouseCliked(bool);
+	bool isClicked(int x, int y);
 };
 
 #endif /* HEADERS_CONTEXTMENU_H_ */
