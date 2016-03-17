@@ -7,7 +7,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "SFML works!");
+    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Text analyzer");
     sf::View view(sf::FloatRect(0, 0, WIDTH, HEIGHT));
     sf::CircleShape shape(150.f);
     sf::Clock clock;
@@ -42,6 +42,9 @@ int main()
 
             } else {
             	scroll_bar->setClicked(false);
+            }
+            if(sf::Mouse::isButtonPressed(sf::Mouse::Right)){
+
             }
         }
 
