@@ -64,31 +64,33 @@ void ContextMenu::setCoordinates(int x, int y){
 		this->y = y;
 		this->mouse_cliked = true;
 
-		int id = this->text_field->getTextLineId();
+		if (this->text_field->text_line_list.size() > 1){
+			int id = this->text_field->getTextLineId();
 
-		//std::cout << this->text_field->text_line_list[2].word_block_list[2].getWord() << std::endl;
-		for(int i = id; i < (id + 50); ++i){
+			//std::cout << this->text_field->text_line_list[2].word_block_list[2].getWord() << std::endl;
+			for(int i = id; i < (id + 50); ++i){
 
-			int size_line = this->text_field->text_line_list[i].word_block_list.size();
+				int size_line = this->text_field->text_line_list[i].word_block_list.size();
 
-			for (int j = 0; j < size_line; ++j){
-				//std::cout << sizeof(this->text_field->text_line_list[i].word_block_list[j]) << std::endl;
-				if (
-					this->x >= this->text_field->text_line_list[i].word_block_list[j].getX() &&
-					this->x <= (this->text_field->text_line_list[i].word_block_list[j].getX() + this->text_field->text_line_list[i].word_block_list[j].getWidth()) &&
-					this->y >= this->text_field->text_line_list[i].word_block_list[j].getY() &&
-					this->y <= (this->text_field->text_line_list[i].word_block_list[j].getY() + this->text_field->text_line_list[i].word_block_list[j].getHeigth())
-				)
-				{
-					std::cout << this->text_field->text_line_list[i].word_block_list[j].getWord() << std::endl;
-					this->y_above = this->text_field->text_line_list[i].word_block_list[j].getY();
-					this->y_belove = this->text_field->text_line_list[i].word_block_list[j].getY() + this->text_field->text_line_list[i].word_block_list[j].getHeigth();
-					this->x_left = this->text_field->text_line_list[i].word_block_list[j].getX();
-					this->x_right = this->text_field->text_line_list[i].word_block_list[j].getX() + this->text_field->text_line_list[i].word_block_list[j].getWidth();
+				for (int j = 0; j < size_line; ++j){
+					//std::cout << sizeof(this->text_field->text_line_list[i].word_block_list[j]) << std::endl;
+					if (
+						this->x >= this->text_field->text_line_list[i].word_block_list[j].getX() &&
+						this->x <= (this->text_field->text_line_list[i].word_block_list[j].getX() + this->text_field->text_line_list[i].word_block_list[j].getWidth()) &&
+						this->y >= this->text_field->text_line_list[i].word_block_list[j].getY() &&
+						this->y <= (this->text_field->text_line_list[i].word_block_list[j].getY() + this->text_field->text_line_list[i].word_block_list[j].getHeigth())
+					)
+					{
+						std::cout << this->text_field->text_line_list[i].word_block_list[j].getWord() << std::endl;
+						this->y_above = this->text_field->text_line_list[i].word_block_list[j].getY();
+						this->y_belove = this->text_field->text_line_list[i].word_block_list[j].getY() + this->text_field->text_line_list[i].word_block_list[j].getHeigth();
+						this->x_left = this->text_field->text_line_list[i].word_block_list[j].getX();
+						this->x_right = this->text_field->text_line_list[i].word_block_list[j].getX() + this->text_field->text_line_list[i].word_block_list[j].getWidth();
+					}
+
 				}
 
 			}
-
 		}
 
 	}
