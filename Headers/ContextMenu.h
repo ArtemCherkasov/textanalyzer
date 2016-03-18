@@ -20,6 +20,10 @@ private:
 	int height;
 	int x;
 	int y;
+	int x_right;
+	int x_left;
+	int y_above;
+	int y_belove;
 	sf::RenderWindow *window;
 	sf::RectangleShape menu;
 	bool visible = false;
@@ -32,6 +36,7 @@ public:
 	void setCoordinates(int x, int y);
 	void setMouseCliked(bool);
 	bool isClicked(int x, int y);
+	void drawSomethingLines();
 };
 
 #endif /* HEADERS_CONTEXTMENU_H_ */

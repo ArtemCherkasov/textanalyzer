@@ -20,12 +20,13 @@ private:
 	int width;
 	int height;
 	int size;
-	std::string word;
+
 	sf::Text text_sfml;
 	sf::RectangleShape rectangle;
 	sf::Font *font;
 	bool block;
 public:
+	std::string word;
 	WordBlock();
 	WordBlock(std::string word, sf::Font *font, bool block);
 	void addWord(std::string word, sf::Font *font);

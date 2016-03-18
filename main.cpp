@@ -67,23 +67,14 @@ int main()
 
         }
 
-		// window.draw(shape);
-		if (time_count > 0.05){
-			time_count = 0.0;
-			window.clear(sf::Color::White);
-			text_field->draw(scroll_bar->getPositionProcent());
-			scroll_bar->draw();
-			context_menu->draw();
-			//view.move(0, scroll_bar->getPositionProcent());
-			//view.rotate(2);
-			window.setView(view);
-			window.display();
-			if (m < 500){
-				++m;
-			} else {
-				m = 0;
-			}
-		}
+        window.clear(sf::Color::White);
+		text_field->draw(scroll_bar->getPositionProcent());
+		scroll_bar->draw();
+		context_menu->draw();
+		context_menu->drawSomethingLines();
+
+		window.setView(view);
+		window.display();
 
     }
     return 0;
