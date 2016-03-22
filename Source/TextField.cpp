@@ -35,6 +35,7 @@ TextField::TextField(int width, int height, sf::RenderWindow *window){
 	if(!font.loadFromFile(file_system->getCurrentPath() + PATH_TO_FONT)){
 		//printf("load font from file is error");
 	}
+	ordered_words_list = new std::vector< std::pair< std::string, bool > >;
 }
 
 void TextField::draw(int position_y){
@@ -79,7 +80,11 @@ void TextField::loadText(){
 			words_map.find(w) = ++words_map.find(w);
 			block = false;
 		}
-		this->toTextLine(this->text_loader->getWord(i), block);
+		//this->toTextLine(this->text_loader->getWord(i), block);
+		this->ordered_words_list->push_back(std::make_pair(this->text_loader->getWord(i), block));
+	}
+	for(int i = 0; i < this->text_loader->getCountWords(); ++i){
+
 	}
 	std::cout << "size word list: " << words_map.size() << std::endl;
 	this->load = true;
@@ -94,16 +99,17 @@ void TextField::toTextLine(std::string word, bool block){
 		this->text_line_list.push_back(*(new TextLine(this->text_line_index,this->width, this->height, 10, 10)));
 	}
 	this->text_line_list[this->text_line_index].addWordBlock(*word_block);
+	delete(word_block);
 }
 
 bool TextField::isLoad(){
 	return this->load;
 }
 
-int TextField::getTextLineId(){
+int TextField::getTextLineId() const{
 	return this->id_text_line;
 }
 
-std::vector<TextLine> TextField::getTextLineList(){
+std::vector<TextLine> TextField::getTextLineList() const{
 	return this->text_line_list;
 }

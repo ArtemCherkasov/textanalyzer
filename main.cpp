@@ -13,7 +13,6 @@ struct thread_data{
 	char *message;
 };
 
-TextField *text_field;
 std::map<std::string, int> words_map;
 
 
@@ -44,16 +43,18 @@ void *loadThread(void *threadarg){
 void *mainThread(void *threadarg){
 	std::cout << "second thread" << std::endl;
 	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Text analyzer");
-	text_field = new TextField(WIDTH - 100, HEIGHT, &window);
+	TextField *text_field = new TextField(WIDTH - 100, HEIGHT, &window);
 	sf::View view(sf::FloatRect(0, 0, WIDTH, HEIGHT));
 	sf::CircleShape shape(150.f);
 	sf::Clock clock;
 	shape.setFillColor(sf::Color::Green);
 	//text_field = new TextField(WIDTH - 100, HEIGHT, &window);
 	ScrollBar *scroll_bar = new ScrollBar(WIDTH, HEIGHT, &window);
+	std::cout << "adress window object " << &window << " size of " << sizeof(window)<< std::endl;
+	std::cout << "adress textfield object " << text_field << " size of " << sizeof(text_field)<< std::endl;
 	ContextMenu *context_menu = new ContextMenu(150, 220, &window, text_field);
 	std::cout << "text line size: " << text_field->text_line_list.size() << std::endl;
-	//text_field->loadText();
+	text_field->loadText();
 
 	float time_count = 0;
 	int m = 0;
@@ -108,8 +109,8 @@ void *mainThread(void *threadarg){
 		if (text_field->text_line_list.size() > 1) {
 
 			text_field->draw(scroll_bar->getPositionProcent());
-		}
 
+		}
 		/*
 		if (words_map.size() > 0) {
 			FileSystem *file_system = new FileSystem();

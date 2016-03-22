@@ -40,6 +40,7 @@ private:
 	FullDictionary *full_dictionary;
 	FileSystem *file_system;
 	LexiconHandle *lexiconHandle;
+	std::vector< std::pair< std::string, bool > > *ordered_words_list;
 	bool load;
 	int id_text_line;
 public:
@@ -51,10 +52,10 @@ public:
 	int getWidth() const;
 	void setWidth(int width);
 	void draw(int position_y);
-	int getMovePosition();
+	int getMovePosition() const;
 	bool isLoad();
-	int getTextLineId();
-	std::vector<TextLine> getTextLineList();
+	int getTextLineId() const;
+	std::vector<TextLine> getTextLineList() const;
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */
