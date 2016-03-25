@@ -1,46 +1,50 @@
 /*
- * WordBlock.h
+ * WordBlockAlternative.h
  *
- *  Created on: 19 дек. 2015 г.
+ *  Created on: 25 марта 2016 г.
  *      Author: artemcherkasov
  */
 
 #ifndef HEADERS_WORDBLOCK_H_
 #define HEADERS_WORDBLOCK_H_
 
-#include <string>
 #include "SFML/Graphics.hpp"
+#include <stdio.h>
 
 #define CHARACTER_SIZE 14
 
-class WordBlock {
+class WordBlock{
 private:
 	int x;
 	int y;
-	int width;
+	int rectangle_x;
+	int rectangle_y;
+	int rectangle_width;
+	int rectangle_height;
 	int height;
-	int size;
-
-	sf::Text text_sfml;
+	int width;
+	int margin_bottom;
+	int margin_left;
+	std::string word_string;
+	sf::Text word;
 	sf::RectangleShape rectangle;
-	sf::Font *font;
 	bool block;
 public:
-	std::string word;
-	WordBlock();
-	WordBlock(std::string word, sf::Font *font, bool block);
-	void addWord(std::string word, sf::Font *font);
-	std::string getWord();
-	void setWord(const std::string& word);
-	void draw();
-	const sf::Text getTextSfml();
-	const sf::RectangleShape getRectangle();
-	void setPosition(float x, float y);
-	bool getBlock();
-	int getX();
-	int getY();
-	int getWidth();
-	int getHeigth();
+	WordBlock(std::string word, sf::Font *font, int margin_bottom, int margin_left);
+	int getHeight() const;
+	int getMarginBottom() const;
+	int getMarginLeft() const;
+	int getWidth() const;
+	const sf::Text& getWord() const;
+	const sf::RectangleShape& getRectangle() const;
+	void setPosition(int x, int y);
+	int getRectangleHeight() const;
+	int getRectangleWidth() const;
+	int getRectangleX() const;
+	int getRectangleY() const;
+	const std::string& getWordString() const;
+	bool isBlock() const;
+	void setBlock(bool block);
 };
 
 #endif /* HEADERS_WORDBLOCK_H_ */

@@ -1,82 +1,86 @@
 /*
- * WordBlock.cpp
+ * WordBlockAlternative.cpp
  *
- *  Created on: 19 дек. 2015 г.
+ *  Created on: 25 марта 2016 г.
  *      Author: artemcherkasov
  */
 
 #include "../Headers/WordBlock.h"
 
-void WordBlock::setWord(const std::string& word) {
-	this->word = word;
+WordBlock::WordBlock(std::string word, sf::Font *font, int margin_bottom, int margin_left){
+	this->word_string = word;
+	this->word.setFont(*font);
+	this->word.setString(word);
+	this->word.setCharacterSize(CHARACTER_SIZE);
+	this->word.setColor(sf::Color::Black);
+	this->word.setStyle(sf::Text::Regular);
+	this->width = this->word.getLocalBounds().width;
+	this->height = this->word.getLocalBounds().height;
+	this->margin_bottom = margin_bottom;
+	this->margin_left = margin_left;
 }
 
-void WordBlock::addWord(std::string word, sf::Font *font){
-	this->word = word;
-	this->size = this->word.size();
-	this->font = font;
-}
-
-WordBlock::WordBlock(std::string word, sf::Font *font, bool block){
-	//this->word = word;
-	this->word.append(word);
-	this->font = font;
-	this->text_sfml.setFont(*this->font);
-	this->text_sfml.setString(this->word);
-	this->text_sfml.setCharacterSize(CHARACTER_SIZE);
-	this->text_sfml.setColor(sf::Color::Black);
-	this->text_sfml.setStyle(sf::Text::Regular);
+void WordBlock::setPosition(int x, int y){
+	this->x = x;
+	this->y = y;
+	this->word.setPosition(x, y);
 	this->rectangle.setFillColor(sf::Color::Red);
-	this->size = this->word.size();
-	this->width = this->text_sfml.getLocalBounds().width + 6;
-	this->height = 16;
-	this->block = block;
+	this->rectangle_x = x - 2;
+	this->rectangle_y = y;
+	this->rectangle_width = this->width + 4;
+	this->rectangle_height = this->height + 8;
+	this->rectangle.setPosition(x - 2, y);
+	this->rectangle.setSize(sf::Vector2f(this->rectangle_width, this->rectangle_height));
 }
 
-const sf::RectangleShape WordBlock::getRectangle(){
+int WordBlock::getHeight() const {
+	return height;
+}
+
+int WordBlock::getMarginBottom() const {
+	return margin_bottom;
+}
+
+int WordBlock::getMarginLeft() const {
+	return margin_left;
+}
+
+int WordBlock::getWidth() const {
+	return width;
+}
+
+const sf::Text& WordBlock::getWord() const {
+	return word;
+}
+
+const sf::RectangleShape& WordBlock::getRectangle() const {
 	return rectangle;
 }
 
-const sf::Text WordBlock::getTextSfml() {
-	return text_sfml;
+int WordBlock::getRectangleHeight() const {
+	return rectangle_height;
 }
 
-void WordBlock::setPosition(float x, float y){
-	this->text_sfml.setPosition(x ,y);
-	this->rectangle.setPosition(x - 2, y + 2);
-	this->x = x - 2;
-	this->y = y + 2;
-	this->rectangle.setSize(sf::Vector2f(this->width, this->height));
+int WordBlock::getRectangleWidth() const {
+	return rectangle_width;
 }
 
-bool WordBlock::getBlock(){
-	return this->block;
+int WordBlock::getRectangleX() const {
+	return rectangle_x;
 }
 
-int WordBlock::getWidth(){
-	return this->width;
+int WordBlock::getRectangleY() const {
+	return rectangle_y;
 }
 
-int WordBlock::getHeigth(){
-	return this->height;
+bool WordBlock::isBlock() const {
+	return block;
 }
 
-int WordBlock::getX(){
-	return this->x;
+void WordBlock::setBlock(bool block) {
+	this->block = block;
 }
 
-int WordBlock::getY(){
-	return this->y;
-}
-
-void WordBlock::draw(){
-
-}
-
-std::string WordBlock::getWord(){
-	return this->word;
-}
-
-WordBlock::WordBlock(){
-
+const std::string& WordBlock::getWordString() const {
+	return word_string;
 }

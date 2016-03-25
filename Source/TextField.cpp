@@ -28,7 +28,6 @@ TextField::TextField(int width, int height, sf::RenderWindow *window){
 	this->height = height;
 	this->window = window;
 	this->text_line_index = 0;
-	this->text_line_list.push_back(*(new TextLine(this->text_line_index,this->width, this->height, 10, 10)));
 	file_system = new FileSystem();
 	//std::cout << file_system->getCurrentPath() << std::endl;
 	lexiconHandle = new LexiconHandle(file_system->getCurrentPath() + "/Store/Lexicon");
@@ -66,23 +65,12 @@ void TextField::loadText(){
 			words_map.find(w) = ++words_map.find(w);
 			block = false;
 		}
-		this->toTextLine(this->text_loader->getWord(i), block);
+		//this->toTextLine(this->text_loader->getWord(i), block);
 		this->text_loader->setBlock(i, block);
 	}
 	this->setTextColumnParameter();
 	std::cout << "size word list: " << words_map.size() << std::endl;
 	this->load = true;
-}
-
-void TextField::toTextLine(std::string word, bool block){
-
-	WordBlock *word_block = new WordBlock(word, &this->font, block);
-	if (((*word_block).getWidth() + this->text_line_list[this->text_line_index].getWidth()) > this->width){
-		++this->text_line_index;
-		this->text_line_list.push_back(*(new TextLine(this->text_line_index,this->width, this->height, 10, 10)));
-	}
-	this->text_line_list[this->text_line_index].addWordBlock(*word_block);
-	delete(word_block);
 }
 
 void TextField::setTextColumnParameter(){
@@ -147,8 +135,4 @@ bool TextField::isLoad(){
 
 int TextField::getTextLineId() const{
 	return this->id_text_line;
-}
-
-std::vector<TextLine> TextField::getTextLineList() const{
-	return this->text_line_list;
 }

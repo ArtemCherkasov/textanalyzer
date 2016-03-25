@@ -15,7 +15,7 @@ std::vector<std::string> TextLoader::getWords(){
 	return words;
 }
 
-const std::vector<WordBlockAlternative> &TextLoader::getWordBlockList() const{
+const std::vector<WordBlock> &TextLoader::getWordBlockList() const{
 	return word_block_list;
 }
 
@@ -64,7 +64,7 @@ TextLoader::TextLoader(std::string file_name, sf::Font *font){
 				this->sf_text.setCharacterSize(CHARACTER_SIZE);
 				this->words.push_back(word_to_add);
 				++this->count_words;
-				this->word_block_list.push_back(*(new WordBlockAlternative(word_to_add, font, 10, 10)));
+				this->word_block_list.push_back(*(new WordBlock(word_to_add, font, 10, 10)));
 				//std::cout << word_to_add << std::endl;
 				word_to_add.erase();
 			}

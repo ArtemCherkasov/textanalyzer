@@ -27,7 +27,6 @@ int main()
 	std::cout << "adress window object " << &window << " size of " << sizeof(window)<< std::endl;
 	std::cout << "adress textfield object " << text_field << " size of " << sizeof(text_field)<< std::endl;
 	ContextMenu *context_menu = new ContextMenu(150, 220, &window, text_field);
-	std::cout << "text line size: " << text_field->text_line_list.size() << std::endl;
 	text_field->loadText();
 
 	float time_count = 0;
@@ -80,23 +79,10 @@ int main()
 		}
 
 		window.clear(sf::Color::White);
-		if (text_field->text_line_list.size() > 1) {
+		if (text_field->getTextLoader()->getWordBlockList().size() > 0) {
 			text_field->draw(scroll_bar->getPositionProcent());
 		}
 
-		/*
-		if (words_map.size() > 0) {
-			FileSystem *file_system = new FileSystem();
-			sf::Text text;
-			sf::Font font;
-			font.loadFromFile(file_system->getCurrentPath() + PATH_TO_FONT);
-			text.setString("Loaded");
-			text.setFont(font);
-			text.setPosition(20, 20);
-			text.setColor(sf::Color::Black);
-			window.draw(text);
-		}
-		*/
 		scroll_bar->draw();
 		context_menu->draw();
 		context_menu->drawSomethingLines();

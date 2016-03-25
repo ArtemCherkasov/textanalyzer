@@ -10,9 +10,7 @@
 
 #include <iostream>
 #include "SFML/Graphics.hpp"
-#include "../Headers/TextLine.h"
 #include "../Headers/TextLoader.h"
-#include "../Headers/WordBlock.h"
 #include "../Headers/FullDictionary.h"
 #include "../Headers/FileSystem.h"
 #include "../Headers/LexiconHandle.h"
@@ -33,7 +31,6 @@ private:
 	sf::Font font;
 	int text_line_index;
 	sf::RenderWindow *window;
-	void toTextLine(std::string word, bool block);
 	TextLoader *text_loader;
 	sf::Text info_text;
 	FullDictionary *full_dictionary;
@@ -46,7 +43,6 @@ private:
 	int id_text_line;
 	float percent;
 public:
-	std::vector<TextLine> text_line_list;
 	TextField(int width, int height, sf::RenderWindow *window);
 	void loadText();
 	int getHeight() const;
@@ -57,7 +53,6 @@ public:
 	int getMovePosition() const;
 	bool isLoad();
 	int getTextLineId() const;
-	std::vector<TextLine> getTextLineList() const;
 	void setTextColumnParameter();
 	std::vector<int> getRangeForDrawField(int percent);
 	const TextLoader *getTextLoader() const;

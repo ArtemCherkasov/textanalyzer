@@ -9,7 +9,6 @@
 #define HEADERS_TEXTLOADER_H_
 
 #include "SFML/Graphics.hpp"
-#include "WordBlockAlternative.h"
 #include <string>
 #include <stdio.h>
 #include <iostream>
@@ -17,6 +16,7 @@
 #include <fstream>
 #include <vector>
 #include <map>
+#include "WordBlock.h"
 
 #define CHARACTER_SIZE 14
 
@@ -26,14 +26,14 @@ private:
 	std::string text;
 	std::vector<std::string> words;
 	sf::Text sf_text;
-	std::vector<WordBlockAlternative> word_block_list;
+	std::vector<WordBlock> word_block_list;
 	int count_words;
 public:
 	TextLoader(std::string file_name, sf::Font *font);
 	int getCountWords() const;
 	std::vector<std::string> getWords();
 	std::string getWord(int i);
-	const std::vector<WordBlockAlternative> &getWordBlockList() const;
+	const std::vector<WordBlock> &getWordBlockList() const;
 	void setPosition(int index, int x, int y);
 	void setBlock(int index, bool block);
 };
