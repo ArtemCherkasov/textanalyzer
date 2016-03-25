@@ -55,11 +55,10 @@ void TextField::loadText(){
 	this->text_loader = new TextLoader(file_system->getCurrentPath() + PATH_TO_TEXT, &this->font);
 	bool block;
 	//HAYES
-	//std::cout << full_dictionary->getOriginalWord("HAYES") << std::endl;
+	//загружаем в words_map слова которые были ранее сохранены в разных файлах
+
 	for(int i = 0; i < this->text_loader->getCountWords(); ++i){
 		std::string w = full_dictionary->getOriginalWord(this->text_loader->getWord(i));
-		//std::string w = this->text_loader->getWord(i);
-
 		if (!words_map.count(w)){
 			words_map.insert(std::pair<std::string, int>(w, 1));
 			block = true;
@@ -71,7 +70,6 @@ void TextField::loadText(){
 		this->text_loader->setBlock(i, block);
 	}
 	this->setTextColumnParameter();
-	std::cout << "index by percent: first " << this->getRangeForDrawField(50)[0] << " second "<< this->getRangeForDrawField(50)[1] << std::endl;
 	std::cout << "size word list: " << words_map.size() << std::endl;
 	this->load = true;
 }
@@ -112,12 +110,12 @@ const TextLoader* TextField::getTextLoader() const {
 std::vector<int> TextField::getRangeForDrawField(int percent){
 	std::vector<int> result;
 	int string_width = 0;
+	int clear_row = 0;
 	int current_height_text_column = 0;
 	int needed_height_text_column = percent * (this->height_text_column / 100);
 	int i = 0;
 	int max_size = this->text_loader->getWordBlockList().size();
 	while(current_height_text_column < needed_height_text_column){
-		//string_width += this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
 		if (string_width + this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft() > this->width_text_column){
 			string_width = this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
 			current_height_text_column += this->text_loader->getWordBlockList()[i].getHeight() + this->text_loader->getWordBlockList()[i].getMarginBottom();
@@ -129,11 +127,11 @@ std::vector<int> TextField::getRangeForDrawField(int percent){
 	result.push_back(i);
 	string_width = 0;
 	while(current_height_text_column < needed_height_text_column + this->height && i < max_size){
-		this->text_loader->setPosition(i, string_width, current_height_text_column - needed_height_text_column);
-		//string_width += this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
+		this->text_loader->setPosition(i, string_width + 50, clear_row);
 		if (string_width + this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft()> this->width_text_column){
-			string_width = 0; //this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
+			string_width = 0;
 			current_height_text_column += this->text_loader->getWordBlockList()[i].getHeight() + this->text_loader->getWordBlockList()[i].getMarginBottom();
+			clear_row += this->text_loader->getWordBlockList()[i].getHeight() + this->text_loader->getWordBlockList()[i].getMarginBottom();
 		} else {
 			string_width += this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
 		}
