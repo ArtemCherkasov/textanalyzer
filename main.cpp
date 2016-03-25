@@ -13,34 +13,8 @@ struct thread_data{
 	char *message;
 };
 
-std::map<std::string, int> words_map;
-
-
-void *loadThread(void *threadarg){
-	std::cout << "first thread" << std::endl;
-	//text_field->loadText();
-
-	FileSystem *file_system = new FileSystem();
-	FullDictionary *full_dictionary = new FullDictionary(file_system->getCurrentPath() + PATH_TO_DICTIONARY);
-	TextLoader *text_loader = new TextLoader(file_system->getCurrentPath() + PATH_TO_TEXT);
-	bool block;
-
-	for(int i = 0; i < text_loader->getCountWords(); ++i){
-		std::string w = full_dictionary->getOriginalWord(text_loader->getWord(i));
-		if (!words_map.count(w)){
-			words_map.insert(std::pair<std::string, int>(w, 1));
-			block = true;
-		} else {
-			words_map.find(w) = ++words_map.find(w);
-			block = false;
-		}
-	}
-	std::cout << "loaded " << words_map.size() << std::endl;
-
-	pthread_exit(NULL);
-};
-
-void *mainThread(void *threadarg){
+int main()
+{
 	std::cout << "second thread" << std::endl;
 	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Text analyzer");
 	TextField *text_field = new TextField(WIDTH - 100, HEIGHT, &window);
@@ -107,10 +81,9 @@ void *mainThread(void *threadarg){
 
 		window.clear(sf::Color::White);
 		if (text_field->text_line_list.size() > 1) {
-
 			text_field->draw(scroll_bar->getPositionProcent());
-
 		}
+
 		/*
 		if (words_map.size() > 0) {
 			FileSystem *file_system = new FileSystem();
@@ -132,24 +105,5 @@ void *mainThread(void *threadarg){
 		window.display();
 
 	}
-	pthread_exit(NULL);
-};
-
-int main()
-{
-	//std::thread first_thread(loadThread);
-	pthread_t thread[2];
-	int rc;
-	rc = pthread_create(&thread[0], NULL, loadThread, NULL);
-	if (rc){
-		std::cout << "Error:unable to create thread," << rc << std::endl;
-		exit(-1);
-	}
-
-	rc = pthread_create(&thread[1], NULL, mainThread, NULL);
-	if (rc){
-		std::cout << "Error:unable to create thread," << rc << std::endl;
-		exit(-1);
-	}
-	pthread_exit(NULL);
+	return 0;
 }

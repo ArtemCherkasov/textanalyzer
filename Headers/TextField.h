@@ -31,7 +31,6 @@ private:
 	int height;
 	int move_position;
 	sf::Font font;
-
 	int text_line_index;
 	sf::RenderWindow *window;
 	void toTextLine(std::string word, bool block);
@@ -41,6 +40,8 @@ private:
 	FileSystem *file_system;
 	LexiconHandle *lexiconHandle;
 	std::vector< std::pair< std::string, bool > > *ordered_words_list;
+	int width_text_column;
+	int height_text_column;
 	bool load;
 	int id_text_line;
 public:
@@ -56,6 +57,8 @@ public:
 	bool isLoad();
 	int getTextLineId() const;
 	std::vector<TextLine> getTextLineList() const;
+	void setTextColumnParameter();
+	std::vector<int> getRangeForDrawField(int percent);
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */

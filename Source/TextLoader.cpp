@@ -15,11 +15,19 @@ std::vector<std::string> TextLoader::getWords(){
 	return words;
 }
 
+const std::vector<WordBlockAlternative> &TextLoader::getWordBlockList() const{
+	return word_block_list;
+}
+
+void TextLoader::setPosition(int index, int x, int y){
+	this->word_block_list[index].setPosition(x ,y);
+}
+
 std::string TextLoader::getWord(int i){
 	return this->words[i];
 }
 
-TextLoader::TextLoader(std::string file_name){
+TextLoader::TextLoader(std::string file_name, sf::Font *font){
 	this->count_words = 0;
 	this->file_name = file_name;
 	std::ifstream file(this->file_name.c_str());
@@ -47,8 +55,12 @@ TextLoader::TextLoader(std::string file_name){
 		} else {
 			if (new_word){
 				new_word = false;
+				this->sf_text.setFont(*font);
+				this->sf_text.setString(word_to_add);
+				this->sf_text.setCharacterSize(CHARACTER_SIZE);
 				this->words.push_back(word_to_add);
 				++this->count_words;
+				this->word_block_list.push_back(*(new WordBlockAlternative(word_to_add, font, 10, 10)));
 				//std::cout << word_to_add << std::endl;
 				word_to_add.erase();
 			}

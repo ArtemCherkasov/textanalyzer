@@ -39,15 +39,11 @@ TextField::TextField(int width, int height, sf::RenderWindow *window){
 }
 
 void TextField::draw(int position_y){
+	/*
 	sf::CircleShape shape(150.f);
 	shape.setFillColor(sf::Color::Green);
-	//this->window->draw(shape);
-
-	//***********
-	//int id = (position_y - 10)/18;
 	this->id_text_line = position_y*this->text_line_list.size()/100;
 	this->move_position = this->id_text_line*18;
-	//int size = this->text_line_list.size();
 	for(int i = this->id_text_line; i < (this->id_text_line + 50); ++i){
 		int size_line = this->text_line_list[i].word_block_list.size();
 		for (int j = 0; j < size_line; ++j){
@@ -60,12 +56,18 @@ void TextField::draw(int position_y){
 			this->text_line_list[i].word_block_list[j].setPosition(this->text_line_list[i].word_block_list[j].getTextSfml().getPosition().x, y);
 		}
 	}
+	*/
+	std::vector<int> range = this->getRangeForDrawField(position_y);
+	for(int i = range[0]; i < range[1]; ++i){
+		this->window->draw(this->text_loader->getWordBlockList()[i].getRectangle());
+		this->window->draw(this->text_loader->getWordBlockList()[i].getWord());
+	}
 }
 
 void TextField::loadText(){
 	std::map<std::string, int> words_map;
 	this->full_dictionary = new FullDictionary(file_system->getCurrentPath() + PATH_TO_DICTIONARY);
-	this->text_loader = new TextLoader(file_system->getCurrentPath() + PATH_TO_TEXT);
+	this->text_loader = new TextLoader(file_system->getCurrentPath() + PATH_TO_TEXT, &this->font);
 	bool block;
 	//HAYES
 	//std::cout << full_dictionary->getOriginalWord("HAYES") << std::endl;
@@ -80,15 +82,13 @@ void TextField::loadText(){
 			words_map.find(w) = ++words_map.find(w);
 			block = false;
 		}
-		//this->toTextLine(this->text_loader->getWord(i), block);
-		this->ordered_words_list->push_back(std::make_pair(this->text_loader->getWord(i), block));
-	}
-	for(int i = 0; i < this->text_loader->getCountWords(); ++i){
+		this->toTextLine(this->text_loader->getWord(i), block);
 
 	}
+	this->setTextColumnParameter();
+	std::cout << "index by percent: first " << this->getRangeForDrawField(50)[0] << " second "<< this->getRangeForDrawField(50)[1] << std::endl;
 	std::cout << "size word list: " << words_map.size() << std::endl;
 	this->load = true;
-
 }
 
 void TextField::toTextLine(std::string word, bool block){
@@ -100,6 +100,50 @@ void TextField::toTextLine(std::string word, bool block){
 	}
 	this->text_line_list[this->text_line_index].addWordBlock(*word_block);
 	delete(word_block);
+}
+
+void TextField::setTextColumnParameter(){
+	this->width_text_column = this->width;
+	this->height_text_column = 0;
+	int string_width = 0;
+	int size_word_list = this->text_loader->getWordBlockList().size();
+	for (int i = 0; i < size_word_list; ++i){
+		string_width += this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
+		if (string_width > this->width_text_column){
+			string_width = this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
+			this->height_text_column += this->text_loader->getWordBlockList()[i].getHeight() + this->text_loader->getWordBlockList()[i].getMarginBottom();
+		}
+	}
+}
+
+std::vector<int> TextField::getRangeForDrawField(int percent){
+	std::vector<int> result;
+	int string_width = 0;
+	int current_height_text_column = 0;
+	int needed_height_text_column = percent * (this->height_text_column / 100);
+	int i = 0;
+	while(current_height_text_column < needed_height_text_column){
+
+		string_width += this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
+		if (string_width > this->width_text_column){
+			string_width = this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
+			current_height_text_column += this->text_loader->getWordBlockList()[i].getHeight() + this->text_loader->getWordBlockList()[i].getMarginBottom();
+		}
+		++i;
+	}
+	result.push_back(i);
+	string_width = 0;
+	while(current_height_text_column < needed_height_text_column + this->height){
+		this->text_loader->setPosition(i, string_width, current_height_text_column - needed_height_text_column);
+		string_width += this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
+		if (string_width > this->width_text_column){
+			string_width = 0; //this->text_loader->getWordBlockList()[i].getWidth() + this->text_loader->getWordBlockList()[i].getMarginLeft();
+			current_height_text_column += this->text_loader->getWordBlockList()[i].getHeight() + this->text_loader->getWordBlockList()[i].getMarginBottom();
+		}
+		++i;
+	}
+	result.push_back(i);
+	return result;
 }
 
 bool TextField::isLoad(){
