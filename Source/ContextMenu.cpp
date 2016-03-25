@@ -64,35 +64,22 @@ void ContextMenu::setCoordinates(int x, int y){
 		this->y = y;
 		this->mouse_cliked = true;
 
-		if (this->text_field->text_line_list.size() > 1){
-			int id = this->text_field->getTextLineId();
-
-			//std::cout << this->text_field->text_line_list[2].word_block_list[2].getWord() << std::endl;
-			for(int i = id; i < (id + 50); ++i){
-
-				int size_line = this->text_field->text_line_list[i].word_block_list.size();
-
-				for (int j = 0; j < size_line; ++j){
-					//std::cout << sizeof(this->text_field->text_line_list[i].word_block_list[j]) << std::endl;
-					if (
-						this->x >= this->text_field->text_line_list[i].word_block_list[j].getX() &&
-						this->x <= (this->text_field->text_line_list[i].word_block_list[j].getX() + this->text_field->text_line_list[i].word_block_list[j].getWidth()) &&
-						this->y >= this->text_field->text_line_list[i].word_block_list[j].getY() &&
-						this->y <= (this->text_field->text_line_list[i].word_block_list[j].getY() + this->text_field->text_line_list[i].word_block_list[j].getHeigth())
-					)
-					{
-						std::cout << this->text_field->text_line_list[i].word_block_list[j].getWord() << std::endl;
-						this->y_above = this->text_field->text_line_list[i].word_block_list[j].getY();
-						this->y_belove = this->text_field->text_line_list[i].word_block_list[j].getY() + this->text_field->text_line_list[i].word_block_list[j].getHeigth();
-						this->x_left = this->text_field->text_line_list[i].word_block_list[j].getX();
-						this->x_right = this->text_field->text_line_list[i].word_block_list[j].getX() + this->text_field->text_line_list[i].word_block_list[j].getWidth();
-					}
-
+		std::vector<int> range = this->text_field->getRangeForDrawField(this->text_field->getPercent());
+		for(int i = range[0]; i < range[1]; ++i){
+			if (
+					this->x >= this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleX() &&
+					this->x <= (this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleX() + this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleWidth()) &&
+					this->y >= this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY() &&
+					this->y <= (this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY() + this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleHeight())
+				)
+				{
+					std::cout << this->text_field->getTextLoader()->getWordBlockList()[i].getWordString() << std::endl;
+					this->y_above = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY();
+					this->y_belove = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY() + this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleHeight();
+					this->x_left = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleX();
+					this->x_right = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleX() + this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleWidth();
 				}
-
-			}
 		}
-
 	}
 
 }

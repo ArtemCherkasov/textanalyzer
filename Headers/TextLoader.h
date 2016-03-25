@@ -35,6 +35,7 @@ public:
 	std::string getWord(int i);
 	const std::vector<WordBlockAlternative> &getWordBlockList() const;
 	void setPosition(int index, int x, int y);
+	void setBlock(int index, bool block);
 };
 
 

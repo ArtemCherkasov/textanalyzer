@@ -23,6 +23,10 @@ void TextLoader::setPosition(int index, int x, int y){
 	this->word_block_list[index].setPosition(x ,y);
 }
 
+void TextLoader::setBlock(int index, bool block){
+	this->word_block_list[index].setBlock(block);
+}
+
 std::string TextLoader::getWord(int i){
 	return this->words[i];
 }

@@ -44,6 +44,7 @@ private:
 	int height_text_column;
 	bool load;
 	int id_text_line;
+	float percent;
 public:
 	std::vector<TextLine> text_line_list;
 	TextField(int width, int height, sf::RenderWindow *window);
@@ -59,6 +60,8 @@ public:
 	std::vector<TextLine> getTextLineList() const;
 	void setTextColumnParameter();
 	std::vector<int> getRangeForDrawField(int percent);
+	const TextLoader *getTextLoader() const;
+	float getPercent() const;
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */
