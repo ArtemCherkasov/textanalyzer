@@ -9,6 +9,7 @@
 #define HEADERS_LEXICONHANDLE_H_
 
 #include <iostream>
+#include <fstream>
 #include <stdio.h>
 #include <string>
 #include <cstring>
@@ -19,6 +20,7 @@
 class LexiconHandle {
 private:
 	std::vector<std::string> list_of_file;
+	std::vector<std::string> saved_words_list;
 	DIR *dir;
 	struct dirent *ent;
 public:
