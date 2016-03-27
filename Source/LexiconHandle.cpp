@@ -21,7 +21,7 @@ LexiconHandle::LexiconHandle(std::string path_of_file){
 				std::string line;
 				if (file.is_open()) {
 						while (getline(file, line)) {
-							this->saved_words_list.push_back(line);
+							this->saved_words_list.push_back(line.substr(0, line.find('\t')));
 						}
 						file.close();
 					} else {
