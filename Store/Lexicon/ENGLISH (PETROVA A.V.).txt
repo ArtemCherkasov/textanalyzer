@@ -148,7 +148,6 @@ ship [ʃɪp]	судно, корабль
 small [smɔ:l]	маленький
 special ['speʃəl]	особый, специальный
 there [ðeə]	там, туда
-from there	оттуда
 translate [træns'leɪt]	переводить
 then [ðen]	затем
 up [ʌp]	вверх
@@ -161,9 +160,8 @@ world [wɜ:ld]	мир, свет
 along [ə'lɒŋ]	вдоль, по
 also ['ɔ:lsəʊ]	также
 as [æz]	как;когда, в то время как;
-as... as	так же ... как
 beautiful ['bju:tɪfl]	красивый, прекрасный
-(the) best	самый лучший
+best	самый лучший
 capital ['kæpɪtl]	столица
 church [ʧɜ:ʧ]	церковь
 cinema ['sɪnɪmə]	кинотеатр
@@ -255,14 +253,14 @@ weather ['weðə] n	погода
 wind [wɪnd] n	ветер
 winter ['wɪntə] n	зима
 yellow ['jeləʊ] а	желтый
-(a) adjective ['æʤɪktɪv]	прилагательное
-(adv) adverb ['ædvɜ:b]	наречие
-(cj) conjunction [kən'ʤʌŋkʃn]	союз
-(n) noun [naʊn]	существительное
-(num) numeral ['nju:mərəl]	числительное
-(pron) pronoun ['prəʊnaʊn]	местоимение
-(prep) preposition [,prepə'zɪʃn]	пpeдлoг
-(v) verb [vɜ:b]	глагол
+adjective ['æʤɪktɪv]	прилагательное
+adverb ['ædvɜ:b]	наречие
+conjunction [kən'ʤʌŋkʃn]	союз
+noun [naʊn]	существительное
+numeral ['nju:mərəl]	числительное
+pronoun ['prəʊnaʊn]	местоимение
+preposition [,prepə'zɪʃn]	пpeдлoг
+verb [vɜ:b]	глагол
 who? [hu:]	кто?
 where? [weə]	где?
 whom? [hu:m]	кого?
@@ -551,22 +549,6 @@ useful ['ju:sfʊl]	а полезный
 wheel [wi:l]	n колесо
 without [wɪð'aʊt]	prep без
 wood [wʊd]	n дерево (материал); лес
-to come in	входить куда-либо
-to go in	входить откуда-либо
-to come out	выходить куда-либо
-to go out	выходить откуда-либо
-to move in	въезжать
-to run in	вбегать
-to move out	выезжать
-to run out	выбегать
-go back	возвратиться
-take back	взять обратно
-bring back	принести обратно
-give back	вернуть
-put off	отложить
-put on	наложить, надеть
-Go on!	Продолжайте!
-get off (the train)	сойти (с поезда)
 application [æplɪ'keɪʃn]	n применение, использование
 arithmetic [ə'rɪθmətɪk]	n арифметика; а арифметический
 array [ə'reɪ]	n множество
@@ -822,13 +804,8 @@ system ['sɪstɪm]	n система
 until [ʌn'tɪl] prep, cj	до; до техпор пока
 win [wɪn], won [wʌn], won	v добиться, одержать победу, выиграть
 wonderfully ['wʌndəfʊlɪ]	adv замечательно, удивительно
-"<span style=""font-family: Arial"">of course</span>"	конечно, разумеется
-"<span style=""font-family: Arial"">dangerous ['deɪnʤərəs]</span>"	а опасный
-"<span style=""font-family: Arial"">save up</span>"	накопить
-As long as	пока, раз
-as well as	так же хорошо, как и; а также
-as if, as though	как будто
-as for, as to	что касается
+dangerous ['deɪnʤərəs]	а опасный
+saveup	накопить
 remark	замечать
 changeable	изменчивый
 applicable	применимый
@@ -860,7 +837,6 @@ dead [ded]	а мертвый
 dust [dʌst]	n пыль; прах; порошок
 enemy ['enɪmɪ]	n враг
 few [fju:]	а немногие, мало;
-a few	несколько
 flat [flæt]	а плоский; n квартира
 grass [ɡrɑ:s]	n трава
 grey [ɡreɪ]	а серый
@@ -870,7 +846,7 @@ just [ʤʌst]	adv точно, именно, только (что)
 kill [kɪl]	v убивать
 laugh [lɑ:f]	v смеяться
 lie [laɪ], lay [leɪ], lain [leɪn]	v лежать;
-Part. I lying ['laɪɪŋ]	лежащий
+lying ['laɪɪŋ]	лежащий
 minute ['mɪnɪt]	n минута
 moment ['məʊmənt]	n момент
 order ['ɔ:də]	n порядок, приказ;
@@ -891,7 +867,6 @@ sight [saɪt]	n зрение; вид, зрелище;
 be out of sight	скрыться из виду
 straight [streɪt]	а прямой; adv прямо
 sure [ʃʊə]	а верный, надежный, уверенный;
-I am sure	я уверен
 therefore ['ðeəfɔ:]	adv поэтому, следовательно
 throw [θrəʊ], threw [θru:], thrown [θrəʊn]	v бросать
 ton [tʌn]	n тонна
@@ -1010,4 +985,4 @@ mention [ˈmenʃən]	упоминать
 seldom [ˈseldəm]	редко
 quotation [kwəuˈteɪʃən]	цитата
 explain [ɪksˈpleɪn]	объяснять
-small type	мелкий шрифт
+type	шрифт

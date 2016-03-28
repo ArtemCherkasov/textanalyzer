@@ -25,6 +25,8 @@ private:
 	struct dirent *ent;
 public:
 	LexiconHandle(std::string path_of_file);
+	const std::string getWordFromLine(const std::string line) const;
+	const std::vector<std::string>& getSavedWordsList() const;
 };
 
 #endif /* HEADERS_LEXICONHANDLE_H_ */

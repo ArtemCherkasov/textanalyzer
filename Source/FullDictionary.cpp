@@ -12,7 +12,7 @@ FullDictionary::FullDictionary(std::string path_to_dictionary){
 	std::string line;
 	std::string output;
 	if (file.is_open()) {
-		while (std::getline(file, line, '\r')) {
+		while (std::getline(file, line, '\n')) {
 			this->toFillList(line);
 			//std::cout << line << "." << std::endl;
 		}
@@ -30,9 +30,9 @@ void FullDictionary::addWord(Word word){
 void FullDictionary::toFillList(std::string line){
 
 	std::string word;
-	if (line[0] != '\t') {
-
+	if (line[0] != '\t') { // проверка на коренное слово
 		if (!this->main_word.empty()){
+
 			int size_child_list = this->child_words_list.size();
 			for(int i = 0; i < size_child_list; ++i){
 				this->words_list_pair.insert( std::pair<std::string, std::string>(this->child_words_list[i], this->main_word) );

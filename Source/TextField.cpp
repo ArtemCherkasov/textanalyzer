@@ -55,7 +55,17 @@ void TextField::loadText(){
 	bool block;
 	//HAYES
 	//загружаем в words_map слова которые были ранее сохранены в разных файлах
-
+	std::cout << "keeping -> " << full_dictionary->getOriginalWord("keeping") << std::endl;
+	int size_saved_words = this->lexiconHandle->getSavedWordsList().size();
+	for (int i = 0; i < size_saved_words; ++i){
+		std::string w = full_dictionary->getOriginalWord(lexiconHandle->getSavedWordsList()[i]);
+		if (!words_map.count(w)){
+			words_map.insert(std::pair<std::string, int>(w, 1));
+		} else {
+			words_map.find(w) = ++words_map.find(w);
+		}
+	}
+	//маркировка повторяющихся слов
 	for(int i = 0; i < this->text_loader->getCountWords(); ++i){
 		std::string w = full_dictionary->getOriginalWord(this->text_loader->getWord(i));
 		if (!words_map.count(w)){
