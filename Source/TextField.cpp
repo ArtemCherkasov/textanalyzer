@@ -146,3 +146,7 @@ bool TextField::isLoad(){
 int TextField::getTextLineId() const{
 	return this->id_text_line;
 }
+
+sf::Font TextField::getFont(){
+	return font;
+}

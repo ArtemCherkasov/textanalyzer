@@ -57,6 +57,7 @@ public:
 	std::vector<int> getRangeForDrawField(int percent);
 	const TextLoader *getTextLoader() const;
 	float getPercent() const;
+	sf::Font getFont();
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */

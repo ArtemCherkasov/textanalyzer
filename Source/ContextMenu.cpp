@@ -16,6 +16,13 @@ ContextMenu::ContextMenu(int width, int height, sf::RenderWindow *window, TextFi
 	this->text_field = text_field;
 	this->menu.setSize(sf::Vector2f(this->width, this->height));
 	this->menu.setFillColor(sf::Color::Yellow);
+	file_system = new FileSystem();
+	if(!font.loadFromFile(file_system->getCurrentPath() + PATH_TO_FONT)){
+			//printf("load font from file is error");
+	}
+	this->context_menu_list = new ContextMenuItemList(&this->font);
+	this->context_menu_list->addItem("File");
+	this->context_menu_list->addItem("Save");
 }
 
 void ContextMenu::draw(){
@@ -23,6 +30,10 @@ void ContextMenu::draw(){
 		this->menu.setPosition(sf::Vector2f(this->x, this->y));
 		this->window->draw(this->menu);
 	}
+}
+
+ContextMenuItemList ContextMenu::getContextMenuList(){
+	return *context_menu_list;
 }
 
 void ContextMenu::drawSomethingLines(){

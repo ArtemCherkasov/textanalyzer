@@ -13,6 +13,8 @@
 #include "TextField.h"
 #include <vector>
 #include <exception>
+#include "ContextMenuItemList.h"
+#include "FileSystem.h"
 
 class ContextMenu {
 private:
@@ -29,6 +31,9 @@ private:
 	bool visible = false;
 	bool mouse_cliked = false;
 	TextField *text_field;
+	ContextMenuItemList *context_menu_list;
+	sf::Font font;
+	FileSystem *file_system;
 public:
 	ContextMenu(int width, int height, sf::RenderWindow *window, TextField *text_field);
 	void draw();
@@ -37,6 +42,7 @@ public:
 	void setMouseCliked(bool);
 	bool isClicked(int x, int y);
 	void drawSomethingLines();
+	ContextMenuItemList getContextMenuList();
 };
 
 #endif /* HEADERS_CONTEXTMENU_H_ */
