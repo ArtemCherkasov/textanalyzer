@@ -20,17 +20,25 @@
 
 class FullDictionary{
 private:
+	struct translation_pair {
+		std::string transcription;
+		std::string translation;
+	};
 	std::vector<Word> full_dictionary;
 	std::map<std::string, std::vector<std::string> > full_dictionary_map;
 	void toFillList(std::string line);
+	void toSeparateStrings(std::string line);
 	bool swap_trigger;
 	std::string main_word;
 	std::vector<std::string> child_words_list;
 	std::map<std::string, std::string> words_list_pair;
+	std::map<std::string, std::string> translation_pair_list;
 public:
-	FullDictionary(std::string path_to_dictionary);
+	FullDictionary(std::string path_to_dictionary, std::string path_to_translate_dictionary);
 	void addWord(Word word);
 	std::string getOriginalWord(std::string word);
+	std::string getTranslate(std::string word);
+	std::string getTranslate();
 };
 
 

@@ -32,6 +32,10 @@ void ContextMenu::draw(){
 	}
 }
 
+void ContextMenu::setFullDictionary(FullDictionary *fullDictionary) {
+	this->fullDictionary = fullDictionary;
+}
+
 ContextMenuItemList ContextMenu::getContextMenuList(){
 	return *context_menu_list;
 }
@@ -85,6 +89,7 @@ void ContextMenu::setCoordinates(int x, int y){
 				)
 				{
 					std::cout << this->text_field->getTextLoader()->getWordBlockList()[i].getWordString() << std::endl;
+					std::cout << this->fullDictionary->getTranslate() << std::endl;
 					this->y_above = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY();
 					this->y_belove = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY() + this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleHeight();
 					this->x_left = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleX();

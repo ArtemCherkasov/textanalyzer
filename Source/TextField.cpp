@@ -22,16 +22,15 @@ void TextField::setWidth(int width) {
 	this->width = width;
 }
 
-TextField::TextField(int width, int height, sf::RenderWindow *window){
+TextField::TextField(int width, int height, sf::RenderWindow *window, FileSystem &file_system){
 	this->load = false;
 	this->width = width;
 	this->height = height;
 	this->window = window;
 	this->text_line_index = 0;
-	file_system = new FileSystem();
 	//std::cout << file_system->getCurrentPath() << std::endl;
-	lexiconHandle = new LexiconHandle(file_system->getCurrentPath() + "/Store/Lexicon");
-	if(!font.loadFromFile(file_system->getCurrentPath() + PATH_TO_FONT)){
+	lexiconHandle = new LexiconHandle(file_system.getCurrentPath() + "/Store/Lexicon");
+	if(!font.loadFromFile(file_system.getCurrentPath() + PATH_TO_FONT)){
 		//printf("load font from file is error");
 	}
 	ordered_words_list = new std::vector< std::pair< std::string, bool > >;
@@ -50,7 +49,7 @@ void TextField::draw(int position_y){
 
 void TextField::loadText(){
 	std::map<std::string, int> words_map;
-	this->full_dictionary = new FullDictionary(file_system->getCurrentPath() + PATH_TO_DICTIONARY);
+	this->full_dictionary = new FullDictionary(file_system->getCurrentPath() + PATH_TO_DICTIONARY, file_system->getCurrentPath() + PATH_TO_TRANSLATE_DICTIONARY);
 	this->text_loader = new TextLoader(file_system->getCurrentPath() + PATH_TO_TEXT, &this->font);
 	bool block;
 	//HAYES
@@ -79,6 +78,7 @@ void TextField::loadText(){
 		this->text_loader->setBlock(i, block);
 	}
 	this->setTextColumnParameter();
+	std::cout << "333 " << full_dictionary->getTranslate("girl") << std::endl;
 	std::cout << "size word list: " << words_map.size() << std::endl;
 	this->load = true;
 }
@@ -149,4 +149,8 @@ int TextField::getTextLineId() const{
 
 sf::Font TextField::getFont(){
 	return font;
+}
+
+FullDictionary *TextField::getFullDictionary(){
+	return full_dictionary;
 }

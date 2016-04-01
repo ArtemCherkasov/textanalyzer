@@ -34,8 +34,10 @@ private:
 	ContextMenuItemList *context_menu_list;
 	sf::Font font;
 	FileSystem *file_system;
+	FullDictionary *fullDictionary;
 public:
 	ContextMenu(int width, int height, sf::RenderWindow *window, TextField *text_field);
+	void setFullDictionary(FullDictionary *fullDictionary);
 	void draw();
 	void setVisible(bool);
 	void setCoordinates(int x, int y);
@@ -43,6 +45,7 @@ public:
 	bool isClicked(int x, int y);
 	void drawSomethingLines();
 	ContextMenuItemList getContextMenuList();
+
 };
 
 #endif /* HEADERS_CONTEXTMENU_H_ */

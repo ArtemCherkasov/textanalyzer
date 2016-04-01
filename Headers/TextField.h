@@ -21,6 +21,7 @@
 #define PATH_TO_FONT "/Store/couriernew.ttf"
 #define PATH_TO_TEXT "/Store/harry.txt"
 #define PATH_TO_DICTIONARY "/Store/fulldictionary.txt"
+#define PATH_TO_TRANSLATE_DICTIONARY "/Store/translatedictionary.txt"
 
 class TextField{
 
@@ -43,7 +44,7 @@ private:
 	int id_text_line;
 	float percent;
 public:
-	TextField(int width, int height, sf::RenderWindow *window);
+	TextField(int width, int height, sf::RenderWindow *window, FileSystem &file_system);
 	void loadText();
 	int getHeight() const;
 	void setHeight(int height);
@@ -58,6 +59,8 @@ public:
 	const TextLoader *getTextLoader() const;
 	float getPercent() const;
 	sf::Font getFont();
+	FullDictionary *getFullDictionary();
+
 };
 
 #endif /* HEADERS_TEXTFIELD_H_ */

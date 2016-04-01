@@ -2,11 +2,14 @@
 #include "Headers/TextField.h"
 #include "Headers/ScrollBar.h"
 #include "Headers/ContextMenu.h"
+#include "Headers/FileSystem.h"
 #include <iostream>
 #include <pthread.h>
 
 #define WIDTH 1024
 #define HEIGHT 768
+//#define PATH_TO_DICTIONARY "/Store/fulldictionary.txt"
+//#define PATH_TO_TRANSLATE_DICTIONARY "/Store/translatedictionary.txt"
 
 struct thread_data{
 	int  thread_id;
@@ -17,7 +20,9 @@ int main()
 {
 	std::cout << "second thread" << std::endl;
 	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Text analyzer");
-	TextField *text_field = new TextField(WIDTH - 100, HEIGHT, &window);
+	FileSystem *file_system = new FileSystem();
+	FullDictionary *fullDictionary = new FullDictionary(file_system->getCurrentPath() + PATH_TO_DICTIONARY, file_system->getCurrentPath() + PATH_TO_TRANSLATE_DICTIONARY);
+	TextField *text_field = new TextField(WIDTH - 100, HEIGHT, &window, *file_system);
 	sf::View view(sf::FloatRect(0, 0, WIDTH, HEIGHT));
 	sf::CircleShape shape(150.f);
 	sf::Clock clock;
@@ -27,6 +32,7 @@ int main()
 	std::cout << "adress window object " << &window << " size of " << sizeof(window)<< std::endl;
 	std::cout << "adress textfield object " << text_field << " size of " << sizeof(text_field)<< std::endl;
 	ContextMenu *context_menu = new ContextMenu(150, 220, &window, text_field);
+	context_menu->setFullDictionary(text_field->getFullDictionary());
 	text_field->loadText();
 
 	float time_count = 0;
