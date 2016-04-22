@@ -53,9 +53,12 @@ void TextField::loadText(){
 	this->text_loader = new TextLoader(file_system->getCurrentPath() + PATH_TO_TEXT, &this->font);
 	bool block;
 	//HAYES
+	std::cout << "TESt::00 " << file_system->getCurrentPath() << std::endl;
 	//загружаем в words_map слова которые были ранее сохранены в разных файлах
-	std::cout << "keeping -> " << full_dictionary->getOriginalWord("keeping") << std::endl;
+
+	//std::cout << "keeping -> " << full_dictionary->getOriginalWord("keeping") << std::endl;
 	int size_saved_words = this->lexiconHandle->getSavedWordsList().size();
+
 	for (int i = 0; i < size_saved_words; ++i){
 		std::string w = full_dictionary->getOriginalWord(lexiconHandle->getSavedWordsList()[i]);
 		if (!words_map.count(w)){
@@ -78,8 +81,8 @@ void TextField::loadText(){
 		this->text_loader->setBlock(i, block);
 	}
 	this->setTextColumnParameter();
-	std::cout << "333 " << full_dictionary->getTranslate("girl") << std::endl;
-	std::cout << "size word list: " << words_map.size() << std::endl;
+	//std::cout << "333 " << full_dictionary->getTranslate("girl") << std::endl;
+	//std::cout << "size word list: " << words_map.size() << std::endl;
 	this->load = true;
 }
 

@@ -8,8 +8,10 @@
 #include "../Headers/FileSystem.h"
 
 std::string FileSystem::getCurrentPath(){
-	if (!GetCurrentDir(cCurrentPath, sizeof(cCurrentPath))){
+	//GetCurrentDir(cCurrentPath, sizeof(cCurrentPath))
+	if ( !get_current_dir_name() ){
+		std::cout << "cCurrentPath ---- > " << std::endl;
 		return "-1";
 	}
-	return cCurrentPath;
+	return get_current_dir_name();
 }

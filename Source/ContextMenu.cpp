@@ -80,6 +80,7 @@ void ContextMenu::setCoordinates(int x, int y){
 		this->mouse_cliked = true;
 
 		std::vector<int> range = this->text_field->getRangeForDrawField(this->text_field->getPercent());
+
 		for(int i = range[0]; i < range[1]; ++i){
 			if (
 					this->x >= this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleX() &&
@@ -96,6 +97,7 @@ void ContextMenu::setCoordinates(int x, int y){
 					this->x_right = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleX() + this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleWidth();
 				}
 		}
+
 	}
 
 }

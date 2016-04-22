@@ -11,7 +11,7 @@ FullDictionary::FullDictionary(std::string path_to_dictionary, std::string path_
 	std::ifstream file(path_to_dictionary.c_str());
 	std::string line;
 	std::string output;
-	std::cout << "LOAD DICTIONARY..." << std::endl;
+	std::cout << "LOAD DICTIONARY... " << std::endl;
 	if (file.is_open()) {
 		while (std::getline(file, line, '\n')) {
 			this->toFillList(line);
@@ -20,7 +20,7 @@ FullDictionary::FullDictionary(std::string path_to_dictionary, std::string path_
 		std::cout << "SIZE() " << this->words_list_pair.size() << std::endl;
 		file.close();
 	} else {
-		std::cout << "ERROR FILE OPEN" << std::endl;
+		std::cout << "ERROR FILE DICTIONARY OPEN" << std::endl;
 	}
 	std::cout << "LOAD TRANSLATE DICTIONARY..." << std::endl;
 	file.open(path_to_translate_dictionary.c_str());
@@ -32,10 +32,10 @@ FullDictionary::FullDictionary(std::string path_to_dictionary, std::string path_
 		}
 		std::cout << "SIZE TRANSLATION PAIR() " << this->translation_pair_list.size() << std::endl;
 		int contain_index = 25;
-		std::cout << "TRANSLATION PAIR() contain for index " << contain_index << " " << this->getTranslate("apple") << std::endl;
+		std::cout << "TRANSLATION PAIR() contain for index " << contain_index << " " << this->getTranslate("table") << std::endl;
 		file.close();
 	} else {
-		std::cout << "ERROR FILE OPEN" << std::endl;
+		std::cout << "ERROR FILE TRANSLATE OPEN" << std::endl;
 	}
 }
 
@@ -106,7 +106,7 @@ std::string FullDictionary::getTranslate(std::string word){
 	std::string return_word = word;
 	std::transform(return_word.begin(), return_word.end(), return_word.begin(), ::toupper);
 	std::cout << "calculate: " << return_word << " size: " << std::endl;
-	std::cout << this->translation_pair_list["APPLE"] << std::endl;
+	std::cout << this->translation_pair_list[return_word] << std::endl;
 
 	if(this->translation_pair_list.count(return_word)){
 		return this->translation_pair_list[return_word];
@@ -119,7 +119,7 @@ std::string FullDictionary::getTranslate(){
 
 	std::string return_word = "table";
 	std::transform(return_word.begin(), return_word.end(), return_word.begin(), ::toupper);
-	std::cout << "calculate: " << return_word << " size: " << std::endl;
+	std::cout << "FullDictionary::getTranslate::calculate: " << return_word << " size: " << std::endl;
 	std::cout << this->translation_pair_list[return_word] << std::endl;
 
 	if(this->translation_pair_list.count(return_word)){

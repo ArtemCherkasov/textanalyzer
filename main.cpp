@@ -85,6 +85,7 @@ int main()
 		}
 
 		window.clear(sf::Color::White);
+
 		if (text_field->getTextLoader()->getWordBlockList().size() > 0) {
 			text_field->draw(scroll_bar->getPositionProcent());
 		}
@@ -99,3 +100,4 @@ int main()
 	}
 	return 0;
 }
+//:e ++enc=cp850

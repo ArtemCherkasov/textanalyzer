@@ -8,6 +8,10 @@
 #ifndef HEADERS_FILESYSTEM_H_
 #define HEADERS_FILESYSTEM_H_
 
+#include <stdio.h>
+#include <iostream>
+#include <string>
+
 #ifdef WINDOWS
 	#include <direct.h>
 	#define GetCurrentDir _getcwd
@@ -15,8 +19,8 @@
 	#include <unistd.h>
 	#define GetCurrentDir getcwd
 #endif
-#define FILENAME_MAX 5000
-#include <string>
+
+#define FILENAME_MAX 15000
 
 class FileSystem {
 private:
