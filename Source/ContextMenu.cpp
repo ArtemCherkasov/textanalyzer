@@ -89,8 +89,8 @@ void ContextMenu::setCoordinates(int x, int y){
 					this->y <= (this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY() + this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleHeight())
 				)
 				{
-					std::cout << this->text_field->getTextLoader()->getWordBlockList()[i].getWordString() << std::endl;
-					std::cout << this->fullDictionary->getTranslate() << std::endl;
+					//std::cout << this->fullDictionary->getOriginalWord(this->text_field->getTextLoader()->getWordBlockList()[i].getWordString()) << std::endl;
+					std::cout << this->fullDictionary->getOriginalWord(this->text_field->getTextLoader()->getWordBlockList()[i].getWordString()) << " -> " << this->fullDictionary->getTranslate(this->fullDictionary->getOriginalWord(this->text_field->getTextLoader()->getWordBlockList()[i].getWordString())) << std::endl;
 					this->y_above = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY();
 					this->y_belove = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleY() + this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleHeight();
 					this->x_left = this->text_field->getTextLoader()->getWordBlockList()[i].getRectangleX();

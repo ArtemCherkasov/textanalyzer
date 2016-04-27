@@ -49,6 +49,7 @@ void TextField::draw(int position_y){
 
 void TextField::loadText(){
 	std::map<std::string, int> words_map;
+	std::cout << "TextField::loadText() " << std::endl;
 	this->full_dictionary = new FullDictionary(file_system->getCurrentPath() + PATH_TO_DICTIONARY, file_system->getCurrentPath() + PATH_TO_TRANSLATE_DICTIONARY);
 	this->text_loader = new TextLoader(file_system->getCurrentPath() + PATH_TO_TEXT, &this->font);
 	bool block;
@@ -154,6 +155,6 @@ sf::Font TextField::getFont(){
 	return font;
 }
 
-FullDictionary *TextField::getFullDictionary(){
+FullDictionary* TextField::getFullDictionary(){
 	return full_dictionary;
 }

@@ -34,7 +34,7 @@ private:
 	sf::RenderWindow *window;
 	TextLoader *text_loader;
 	sf::Text info_text;
-	FullDictionary *full_dictionary;
+	FullDictionary* full_dictionary;
 	FileSystem *file_system;
 	LexiconHandle *lexiconHandle;
 	std::vector< std::pair< std::string, bool > > *ordered_words_list;

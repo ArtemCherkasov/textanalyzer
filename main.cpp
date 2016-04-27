@@ -21,7 +21,6 @@ int main()
 	std::cout << "second thread" << std::endl;
 	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Text analyzer");
 	FileSystem *file_system = new FileSystem();
-	FullDictionary *fullDictionary = new FullDictionary(file_system->getCurrentPath() + PATH_TO_DICTIONARY, file_system->getCurrentPath() + PATH_TO_TRANSLATE_DICTIONARY);
 	TextField *text_field = new TextField(WIDTH - 100, HEIGHT, &window, *file_system);
 	sf::View view(sf::FloatRect(0, 0, WIDTH, HEIGHT));
 	sf::CircleShape shape(150.f);
@@ -31,9 +30,11 @@ int main()
 	ScrollBar *scroll_bar = new ScrollBar(WIDTH, HEIGHT, &window);
 	std::cout << "adress window object " << &window << " size of " << sizeof(window)<< std::endl;
 	std::cout << "adress textfield object " << text_field << " size of " << sizeof(text_field)<< std::endl;
-	ContextMenu *context_menu = new ContextMenu(150, 220, &window, text_field);
-	context_menu->setFullDictionary(text_field->getFullDictionary());
 	text_field->loadText();
+	ContextMenu *context_menu = new ContextMenu(150, 220, &window, text_field);
+	std::cout << "MAIN " << text_field->getFullDictionary() << std::endl;
+	context_menu->setFullDictionary(text_field->getFullDictionary());
+
 
 	float time_count = 0;
 	int m = 0;

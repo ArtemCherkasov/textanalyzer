@@ -26,8 +26,6 @@ private:
 	};
 	std::vector<Word> full_dictionary;
 	std::map<std::string, std::vector<std::string> > full_dictionary_map;
-	void toFillList(std::string line);
-	void toSeparateStrings(std::string line);
 	bool swap_trigger;
 	std::string main_word;
 	std::vector<std::string> child_words_list;
@@ -39,6 +37,9 @@ public:
 	std::string getOriginalWord(std::string word);
 	std::string getTranslate(std::string word);
 	std::string getTranslate();
+	const std::map<std::string, std::string> getTranslationPairList() const;
+	void toFillList(std::string line);
+	void toSeparateStrings(std::string line);
 };
 
 
